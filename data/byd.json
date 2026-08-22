@@ -177,7 +177,7 @@
       "name": "BYD Atto 3",
       "year": null,
       "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-atto-3-266",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-atto-3-2026-dynamic-889",
       "price": 766000000,
       "versions": [
         {
@@ -186,12 +186,12 @@
           "status": "on_sale",
           "specs": [
             {
-              "label": "Tầm hoạt động (km)",
-              "value": "410"
-            },
-            {
               "label": "Dung lượng pin",
               "value": "49,92 kWh"
+            },
+            {
+              "label": "Quãng đường/lần sạc (NEDC)",
+              "value": "410 km"
             }
           ]
         },
@@ -201,17 +201,21 @@
           "status": "on_sale",
           "specs": [
             {
-              "label": "Tầm hoạt động (km)",
-              "value": "480"
-            },
-            {
               "label": "Dung lượng pin",
               "value": "60,48 kWh"
+            },
+            {
+              "label": "Quãng đường/lần sạc (NEDC)",
+              "value": "480 km"
             }
           ]
         }
       ],
       "specs": [
+        {
+          "label": "Nhiên liệu",
+          "value": "Điện"
+        },
         {
           "label": "Hộp số",
           "value": "1 cấp"
@@ -225,10 +229,6 @@
           "value": "Blade battery"
         },
         {
-          "label": "Cần số điện tử",
-          "value": "Có"
-        },
-        {
           "label": "Công suất",
           "value": "201 mã lực"
         },
@@ -237,12 +237,132 @@
           "value": "310 Nm"
         },
         {
+          "label": "Tăng tốc 0-100 km/h",
+          "value": "7,3 giây"
+        },
+        {
+          "label": "Công suất sạc AC",
+          "value": "7 kW"
+        },
+        {
           "label": "Số chỗ ngồi",
           "value": "5"
+        },
+        {
+          "label": "Kích thước (D×R×C)",
+          "value": "4.455 × 1.875 × 1.615 mm"
+        },
+        {
+          "label": "Trục cơ sở",
+          "value": "2.720 mm"
+        },
+        {
+          "label": "Khoảng sáng gầm",
+          "value": "150 mm"
+        },
+        {
+          "label": "Dung tích cốp sau",
+          "value": "440 lít"
+        },
+        {
+          "label": "Trọng lượng (bản thân)",
+          "value": "2.090"
+        },
+        {
+          "label": "Cỡ lốp",
+          "value": "215/60 R17"
+        },
+        {
+          "label": "Hệ thống treo trước",
+          "value": "MacPherson"
+        },
+        {
+          "label": "Hệ thống treo sau",
+          "value": "Đa liên kết 5 điểm"
+        },
+        {
+          "label": "Phanh trước",
+          "value": "Đĩa"
+        },
+        {
+          "label": "Phanh sau",
+          "value": "Đĩa"
+        },
+        {
+          "label": "Đèn chiếu xa",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn chiếu gần",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn ban ngày",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn hậu",
+          "value": "LED"
+        },
+        {
+          "label": "Gương chiếu hậu",
+          "value": "Chỉnh điện"
+        },
+        {
+          "label": "Chất liệu bọc ghế",
+          "value": "Da"
+        },
+        {
+          "label": "Điều chỉnh ghế lái",
+          "value": "Điện"
+        },
+        {
+          "label": "Nhớ vị trí ghế lái",
+          "value": "Không"
+        },
+        {
+          "label": "Điều chỉnh ghế phụ",
+          "value": "Cơ"
+        },
+        {
+          "label": "Bảng đồng hồ tài xế",
+          "value": "5 inch"
+        },
+        {
+          "label": "Chất liệu bọc vô-lăng",
+          "value": "Da PU"
+        },
+        {
+          "label": "Hàng ghế thứ hai",
+          "value": "Gập 60:40"
+        },
+        {
+          "label": "Điều hoà",
+          "value": "Tự động"
+        },
+        {
+          "label": "Màn hình giải trí",
+          "value": "12,8 inch"
+        },
+        {
+          "label": "Hệ thống loa",
+          "value": "6"
+        },
+        {
+          "label": "Điều chỉnh vô-lăng",
+          "value": "Cơ"
+        },
+        {
+          "label": "Trợ lực vô-lăng",
+          "value": "Điện"
+        },
+        {
+          "label": "Số túi khí",
+          "value": "4"
         }
       ],
-      "updated_at": "2026-08-22T11:23:05+00:00",
-      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+      "updated_at": "2026-08-22T14:19:07+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version); giá theo kho."
     },
     {
       "slug": "byd-dolphin",
@@ -378,7 +498,7 @@
       "name": "BYD Han",
       "year": null,
       "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-han-283",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-han-2026-performance-989",
       "price": 1489000000,
       "versions": [
         {
@@ -390,7 +510,11 @@
       ],
       "specs": [
         {
-          "label": "Động cơ",
+          "label": "Nhiên liệu",
+          "value": "Điện"
+        },
+        {
+          "label": "Kiểu động cơ",
           "value": "Hai môtơ điện"
         },
         {
@@ -398,8 +522,8 @@
           "value": "AWD"
         },
         {
-          "label": "Tầm hoạt động (km)",
-          "value": "521"
+          "label": "Quãng đường/lần sạc (NEDC)",
+          "value": "521 km"
         },
         {
           "label": "Loại pin",
@@ -418,16 +542,116 @@
           "value": "700 Nm"
         },
         {
-          "label": "Thời gian tăng tốc từ 0-100 km/h (giây)",
-          "value": "3,9"
+          "label": "Tăng tốc 0-100 km/h",
+          "value": "3,9 giây"
+        },
+        {
+          "label": "Công suất sạc AC",
+          "value": "6,6 kW"
+        },
+        {
+          "label": "Kích thước (D×R×C)",
+          "value": "4.995 × 1.910 × 1.495 mm"
+        },
+        {
+          "label": "Trục cơ sở",
+          "value": "2.920 mm"
+        },
+        {
+          "label": "Khoảng sáng gầm",
+          "value": "141 mm"
+        },
+        {
+          "label": "Cỡ lốp",
+          "value": "245/45 R19"
         },
         {
           "label": "Số chỗ ngồi",
           "value": "5"
+        },
+        {
+          "label": "Hệ thống treo trước",
+          "value": "MacPherson"
+        },
+        {
+          "label": "Hệ thống treo sau",
+          "value": "Đa liên kết"
+        },
+        {
+          "label": "Phanh trước",
+          "value": "Đĩa thông gió"
+        },
+        {
+          "label": "Phanh sau",
+          "value": "Đĩa thông gió"
+        },
+        {
+          "label": "Đèn chiếu xa",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn chiếu gần",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn ban ngày",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn hậu",
+          "value": "LED"
+        },
+        {
+          "label": "Gương chiếu hậu",
+          "value": "Chỉnh điện, đóng/mở điện"
+        },
+        {
+          "label": "Đèn sương mù",
+          "value": "LED"
+        },
+        {
+          "label": "Chất liệu bọc ghế",
+          "value": "Da"
+        },
+        {
+          "label": "Điều chỉnh ghế lái",
+          "value": "Điện 8 hướng"
+        },
+        {
+          "label": "Nhớ vị trí ghế lái",
+          "value": "2 vị trí"
+        },
+        {
+          "label": "Điều chỉnh ghế phụ",
+          "value": "Điện 6 hướng"
+        },
+        {
+          "label": "Bảng đồng hồ tài xế",
+          "value": "LED 12,3 inch"
+        },
+        {
+          "label": "Chất liệu bọc vô-lăng",
+          "value": "Da"
+        },
+        {
+          "label": "Điều hoà",
+          "value": "Tự động"
+        },
+        {
+          "label": "Màn hình giải trí",
+          "value": "Cảm ứng xoay 15,6 inch"
+        },
+        {
+          "label": "Hệ thống loa",
+          "value": "12 loa Dynaudio"
+        },
+        {
+          "label": "Số túi khí",
+          "value": "6"
         }
       ],
-      "updated_at": "2026-08-22T11:23:05+00:00",
-      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+      "updated_at": "2026-08-22T14:17:04+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết); giá theo kho."
     },
     {
       "slug": "byd-m6",
@@ -740,7 +964,7 @@
       "name": "BYD Seal",
       "year": null,
       "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-seal-267",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-seal-2026-advanced-891",
       "price": 1119000000,
       "versions": [
         {
@@ -749,24 +973,24 @@
           "status": "on_sale",
           "specs": [
             {
-              "label": "Dẫn động",
-              "value": "Cầu sau (RWD)"
-            },
-            {
-              "label": "Tầm hoạt động (km)",
-              "value": "460"
-            },
-            {
-              "label": "Dung lượng pin",
-              "value": "61,44 kWh"
-            },
-            {
               "label": "Công suất",
               "value": "201 mã lực"
             },
             {
               "label": "Mô-men xoắn",
               "value": "310 Nm"
+            },
+            {
+              "label": "Dung lượng pin",
+              "value": "61,44 kWh"
+            },
+            {
+              "label": "Quãng đường/lần sạc (NEDC)",
+              "value": "460 km"
+            },
+            {
+              "label": "Dẫn động",
+              "value": "Cầu sau (RWD)"
             }
           ]
         },
@@ -776,29 +1000,33 @@
           "status": "on_sale",
           "specs": [
             {
-              "label": "Dẫn động",
-              "value": "AWD"
-            },
-            {
-              "label": "Tầm hoạt động (km)",
-              "value": "520"
-            },
-            {
-              "label": "Dung lượng pin",
-              "value": "82,56 kWh"
-            },
-            {
               "label": "Công suất",
               "value": "522 mã lực"
             },
             {
               "label": "Mô-men xoắn",
               "value": "670 Nm"
+            },
+            {
+              "label": "Dung lượng pin",
+              "value": "82,56 kWh"
+            },
+            {
+              "label": "Quãng đường/lần sạc (NEDC)",
+              "value": "520 km"
+            },
+            {
+              "label": "Dẫn động",
+              "value": "2 motor điện (AWD)"
             }
           ]
         }
       ],
       "specs": [
+        {
+          "label": "Nhiên liệu",
+          "value": "Điện"
+        },
         {
           "label": "Hộp số",
           "value": "1 cấp"
@@ -808,16 +1036,128 @@
           "value": "Blade battery"
         },
         {
-          "label": "Cần số điện tử",
-          "value": "Có"
+          "label": "Tăng tốc 0-100 km/h",
+          "value": "7,5 giây"
+        },
+        {
+          "label": "Công suất sạc AC",
+          "value": "7 kW"
         },
         {
           "label": "Số chỗ ngồi",
           "value": "5"
+        },
+        {
+          "label": "Kích thước (D×R×C)",
+          "value": "4.800 × 1.875 × 1.640 mm"
+        },
+        {
+          "label": "Trục cơ sở",
+          "value": "2.920 mm"
+        },
+        {
+          "label": "Khoảng sáng gầm",
+          "value": "120 mm"
+        },
+        {
+          "label": "Dung tích cốp sau",
+          "value": "400+50 lít"
+        },
+        {
+          "label": "Trọng lượng (bản thân)",
+          "value": "1.992"
+        },
+        {
+          "label": "Cỡ lốp",
+          "value": "225/50 R18"
+        },
+        {
+          "label": "Hệ thống treo trước",
+          "value": "Tay đòn kép"
+        },
+        {
+          "label": "Hệ thống treo sau",
+          "value": "Đa liên kết 5 điểm"
+        },
+        {
+          "label": "Phanh trước",
+          "value": "Đĩa"
+        },
+        {
+          "label": "Phanh sau",
+          "value": "Đĩa"
+        },
+        {
+          "label": "Đèn chiếu xa",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn chiếu gần",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn ban ngày",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn hậu",
+          "value": "LED"
+        },
+        {
+          "label": "Gương chiếu hậu",
+          "value": "Chỉnh điện"
+        },
+        {
+          "label": "Chất liệu bọc ghế",
+          "value": "Da"
+        },
+        {
+          "label": "Điều chỉnh ghế lái",
+          "value": "Điện"
+        },
+        {
+          "label": "Điều chỉnh ghế phụ",
+          "value": "Điện"
+        },
+        {
+          "label": "Bảng đồng hồ tài xế",
+          "value": "10,25 inch"
+        },
+        {
+          "label": "Chất liệu bọc vô-lăng",
+          "value": "Da PU"
+        },
+        {
+          "label": "Hàng ghế thứ hai",
+          "value": "Gập 60:40"
+        },
+        {
+          "label": "Điều hoà",
+          "value": "Tự động"
+        },
+        {
+          "label": "Màn hình giải trí",
+          "value": "15,6 inch"
+        },
+        {
+          "label": "Hệ thống loa",
+          "value": "10"
+        },
+        {
+          "label": "Điều chỉnh vô-lăng",
+          "value": "Cơ"
+        },
+        {
+          "label": "Trợ lực vô-lăng",
+          "value": "Điện"
+        },
+        {
+          "label": "Số túi khí",
+          "value": "9"
         }
       ],
-      "updated_at": "2026-08-22T11:23:05+00:00",
-      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+      "updated_at": "2026-08-22T14:19:07+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version); giá theo kho."
     },
     {
       "slug": "byd-seal-5",
@@ -1072,7 +1412,7 @@
       "name": "BYD Sealion 8",
       "year": null,
       "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-sealion-8-296",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-sealion-8-2026-performance-1049",
       "price": 1569000000,
       "versions": [
         {
@@ -1084,7 +1424,11 @@
       ],
       "specs": [
         {
-          "label": "Động cơ",
+          "label": "Nhiên liệu",
+          "value": "Điện"
+        },
+        {
+          "label": "Kiểu động cơ",
           "value": "Hai môtơ điện"
         },
         {
@@ -1100,8 +1444,8 @@
           "value": "AWD"
         },
         {
-          "label": "Thời gian tăng tốc từ 0-100 km/h (giây)",
-          "value": "4,9"
+          "label": "Tăng tốc 0-100 km/h",
+          "value": "4,9 giây"
         },
         {
           "label": "Loại pin",
@@ -1112,16 +1456,120 @@
           "value": "108,8 kWh"
         },
         {
-          "label": "Tầm hoạt động (km)",
-          "value": "530"
+          "label": "Quãng đường/lần sạc (NEDC)",
+          "value": "530 km"
+        },
+        {
+          "label": "Thời gian sạc nhanh DC từ 10-80% (phút)",
+          "value": "45"
+        },
+        {
+          "label": "Công suất sạc AC",
+          "value": "AC 11 kW"
         },
         {
           "label": "Số chỗ ngồi",
           "value": "7"
+        },
+        {
+          "label": "Kích thước (D×R×C)",
+          "value": "4.970 × 1.950 × 1.745 mm"
+        },
+        {
+          "label": "Trục cơ sở",
+          "value": "2.820 mm"
+        },
+        {
+          "label": "Cỡ lốp",
+          "value": "21 inch"
+        },
+        {
+          "label": "Hệ thống treo trước",
+          "value": "MacPherson"
+        },
+        {
+          "label": "Hệ thống treo sau",
+          "value": "Độc lập, đa liên kết"
+        },
+        {
+          "label": "Phanh trước",
+          "value": "Đĩa, kẹp phanh Brembo"
+        },
+        {
+          "label": "Phanh sau",
+          "value": "Đĩa, kẹp phanh Brembo"
+        },
+        {
+          "label": "Đèn chiếu xa",
+          "value": "LED Matrix"
+        },
+        {
+          "label": "Đèn chiếu gần",
+          "value": "LED Matrix"
+        },
+        {
+          "label": "Đèn ban ngày",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn hậu",
+          "value": "LED"
+        },
+        {
+          "label": "Gương chiếu hậu",
+          "value": "Chỉnh điện, gập tự động"
+        },
+        {
+          "label": "Chất liệu bọc ghế",
+          "value": "Da Nappa"
+        },
+        {
+          "label": "Điều chỉnh ghế lái",
+          "value": "Điện"
+        },
+        {
+          "label": "Hàng ghế thứ hai",
+          "value": "Gập phẳng"
+        },
+        {
+          "label": "Hàng ghế thứ ba",
+          "value": "Gập phẳng"
+        },
+        {
+          "label": "Điều hoà",
+          "value": "Tự động 4 vùng"
+        },
+        {
+          "label": "Màn hình giải trí",
+          "value": "Xoay 15,6 inch"
+        },
+        {
+          "label": "Hệ thống loa",
+          "value": "12 loa Dynaudio"
+        },
+        {
+          "label": "Kính tối màu",
+          "value": "Ghế sau"
+        },
+        {
+          "label": "Kết nối điện thoại thông minh",
+          "value": "BYD apps"
+        },
+        {
+          "label": "Trợ lực vô-lăng",
+          "value": "Điện"
+        },
+        {
+          "label": "Số túi khí",
+          "value": "6"
+        },
+        {
+          "label": "Cảm biến lùi",
+          "value": "Trước/Sau"
         }
       ],
-      "updated_at": "2026-08-22T11:23:05+00:00",
-      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+      "updated_at": "2026-08-22T14:17:05+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết); giá theo kho."
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-22T14:15:22+00:00",
+    "updated_at": "2026-08-22T14:19:07+00:00",
     "brands": [
         {
             "brand": "byd",
@@ -19,7 +19,7 @@
                     "name": "BYD Atto 3",
                     "price": 766000000,
                     "status": "on_sale",
-                    "rev": "f10a12bae46d"
+                    "rev": "61e3c8f3bced"
                 },
                 {
                     "slug": "byd-dolphin",
@@ -33,7 +33,7 @@
                     "name": "BYD Han",
                     "price": 1489000000,
                     "status": "on_sale",
-                    "rev": "556384871604"
+                    "rev": "94a4585d1ada"
                 },
                 {
                     "slug": "byd-m6",
@@ -54,7 +54,7 @@
                     "name": "BYD Seal",
                     "price": 1119000000,
                     "status": "on_sale",
-                    "rev": "dd7a76d7ddb8"
+                    "rev": "461fb293855f"
                 },
                 {
                     "slug": "byd-seal-5",
@@ -75,7 +75,7 @@
                     "name": "BYD Sealion 8",
                     "price": 1569000000,
                     "status": "on_sale",
-                    "rev": "fcf146ed061d"
+                    "rev": "fbd4122033e0"
                 }
             ]
         },
