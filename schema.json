@@ -20,6 +20,7 @@
           "source":      { "type": "string", "description": "id nguồn: honda | vnexpress | ..." },
           "source_url":  { "type": "string", "format": "uri" },
           "source_note": { "type": "string", "description": "ghi chú nguồn/độ tin cậy (tuỳ chọn)" },
+          "locked":      { "type": "boolean", "description": "true = đã curate tay, 'wp vig-car build' KHÔNG scrape đè (giữ nguyên)" },
           "price":       { "type": "integer", "description": "giá thấp nhất trong các bản ĐANG BÁN (đồng)" },
           "versions": {
             "type": "array",

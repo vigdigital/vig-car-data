@@ -507,7 +507,8 @@
         }
       ],
       "updated_at": "2026-08-22T03:56:53+00:00",
-      "source_note": "Thông số theo brochure chính hãng Honda CR-V 2026 (file hãng). L AWD: ngừng bán, số liệu đời trước."
+      "source_note": "Thông số theo brochure chính hãng Honda CR-V 2026 (file hãng). L AWD: ngừng bán, số liệu đời trước.",
+      "locked": true
     },
     {
       "slug": "honda-hr-v",
