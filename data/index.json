@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-22T10:34:48+00:00",
+    "updated_at": "2026-08-22T10:42:41+00:00",
     "brands": [
         {
             "brand": "honda",
@@ -19,7 +19,7 @@
                     "name": "Honda Civic",
                     "price": 789000000,
                     "status": "on_sale",
-                    "rev": "bce2ad727673"
+                    "rev": "03a5d0ef1e3d"
                 },
                 {
                     "slug": "honda-civic-type-r",
@@ -33,14 +33,14 @@
                     "name": "Honda CR-V",
                     "price": 1039000000,
                     "status": "on_sale",
-                    "rev": "df85eef320a9"
+                    "rev": "1b8d00420c2b"
                 },
                 {
                     "slug": "honda-hr-v",
                     "name": "Honda HR-V",
                     "price": 669000000,
                     "status": "on_sale",
-                    "rev": "a7e6249330d7"
+                    "rev": "4fc83a114be1"
                 },
                 {
                     "slug": "honda-br-v",

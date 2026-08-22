@@ -325,7 +325,7 @@
             },
             {
               "label": "Nhiên liệu",
-              "value": "Xăng (Hybrid tự sạc)"
+              "value": "Hybrid (Xăng & Điện)"
             },
             {
               "label": "Dung tích bình xăng",
@@ -597,7 +597,7 @@
             },
             {
               "label": "Nhiên liệu",
-              "value": "Xăng (Hybrid tự sạc)"
+              "value": "Hybrid (Xăng & Điện)"
             },
             {
               "label": "Dẫn động",
@@ -640,7 +640,7 @@
             },
             {
               "label": "Nhiên liệu",
-              "value": "Xăng (Hybrid tự sạc)"
+              "value": "Hybrid (Xăng & Điện)"
             },
             {
               "label": "Dẫn động",
@@ -908,7 +908,7 @@
             },
             {
               "label": "Nhiên liệu",
-              "value": "Xăng (Hybrid tự sạc)"
+              "value": "Hybrid (Xăng & Điện)"
             },
             {
               "label": "Mức tiêu thụ (hỗn hợp)",
