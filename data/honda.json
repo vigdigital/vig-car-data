@@ -846,17 +846,39 @@
       "versions": [
         {
           "name": "G",
-          "price": 629000000
+          "price": 629000000,
+          "status": "on_sale",
+          "specs": [
+            {
+              "label": "Trọng lượng (bản thân)",
+              "value": "1.265 kg"
+            },
+            {
+              "label": "Khối lượng toàn tải",
+              "value": "1.830 kg"
+            }
+          ]
         },
         {
           "name": "L",
-          "price": 705000000
+          "price": 705000000,
+          "status": "on_sale",
+          "specs": [
+            {
+              "label": "Trọng lượng (bản thân)",
+              "value": "1.295 kg"
+            },
+            {
+              "label": "Khối lượng toàn tải",
+              "value": "1.850 kg"
+            }
+          ]
         }
       ],
       "specs": [
         {
           "label": "Động cơ",
-          "value": "1.5L DOHC i-VTEC, 4 xi lanh thẳng hàng, 16 van (1.498cc)"
+          "value": "1.5L DOHC i-VTEC, 4 xi-lanh thẳng hàng, 16 van (1.498cc)"
         },
         {
           "label": "Hộp số",
@@ -864,50 +886,80 @@
         },
         {
           "label": "Công suất",
-          "value": "119 mã lực @ 6.600 v/p"
+          "value": "119 mã lực (89 kW) @ 6.600 v/p"
         },
         {
           "label": "Mô-men xoắn",
           "value": "145 Nm @ 4.300 v/p"
         },
         {
-          "label": "Dung tích bình xăng",
-          "value": "42 lít"
+          "label": "Nhiên liệu",
+          "value": "Xăng (PGM-FI)"
         },
         {
           "label": "Mức tiêu thụ (hỗn hợp)",
           "value": "6,4 lít/100km"
         },
         {
+          "label": "Dẫn động",
+          "value": "Cầu trước (FWD)"
+        },
+        {
           "label": "Số chỗ ngồi",
           "value": "7"
+        },
+        {
+          "label": "Dung tích bình xăng",
+          "value": "42 lít"
         },
         {
           "label": "Kích thước (D×R×C)",
           "value": "4.490 × 1.780 × 1.685 mm"
         },
         {
-          "label": "Trục cơ sở",
+          "label": "Chiều dài cơ sở",
           "value": "2.700 mm"
+        },
+        {
+          "label": "Chiều rộng cơ sở (trước/sau)",
+          "value": "1.540 / 1.540 mm"
         },
         {
           "label": "Cỡ lốp",
           "value": "215/55R17"
         },
         {
+          "label": "La-zăng",
+          "value": "17 inch (hợp kim)"
+        },
+        {
           "label": "Khoảng sáng gầm",
           "value": "207 mm"
         },
         {
-          "label": "Trọng lượng (bản thân)",
-          "value": "1.265 kg"
+          "label": "Bán kính quay vòng tối thiểu",
+          "value": "5,3 m"
         },
         {
-          "label": "Nhiên liệu",
-          "value": "Xăng"
+          "label": "Hệ thống treo trước",
+          "value": "MacPherson"
+        },
+        {
+          "label": "Hệ thống treo sau",
+          "value": "Thanh xoắn (giằng xoắn)"
+        },
+        {
+          "label": "Phanh trước",
+          "value": "Đĩa"
+        },
+        {
+          "label": "Phanh sau",
+          "value": "Tang trống"
         }
       ],
-      "updated_at": "2026-08-22T03:56:55+00:00"
+      "updated_at": "2026-08-22T03:56:55+00:00",
+      "locked": true,
+      "source_note": "Thông số theo brochure chính hãng Honda BR-V (file hãng). 2 bản chung máy 1.5 i-VTEC 7 chỗ, khác trọng lượng + trang bị."
     }
   ]
 }

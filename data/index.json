@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-22T10:00:04+00:00",
+    "updated_at": "2026-08-22T10:31:57+00:00",
     "brands": [
         {
             "brand": "honda",
@@ -47,7 +47,7 @@
                     "name": "Honda BR-V",
                     "price": 629000000,
                     "status": "on_sale",
-                    "rev": "cbb380c485a4"
+                    "rev": "126e31352b90"
                 }
             ]
         }
