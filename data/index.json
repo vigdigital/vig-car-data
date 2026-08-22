@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-22T10:31:57+00:00",
+    "updated_at": "2026-08-22T10:34:48+00:00",
     "brands": [
         {
             "brand": "honda",
@@ -19,7 +19,7 @@
                     "name": "Honda Civic",
                     "price": 789000000,
                     "status": "on_sale",
-                    "rev": "ee69a28c873c"
+                    "rev": "bce2ad727673"
                 },
                 {
                     "slug": "honda-civic-type-r",

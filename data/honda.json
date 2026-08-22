@@ -185,42 +185,187 @@
       "price": 789000000,
       "versions": [
         {
-          "name": "e:HEV RS",
-          "price": 999000000
+          "name": "G",
+          "price": 789000000,
+          "status": "on_sale",
+          "specs": [
+            {
+              "label": "Động cơ",
+              "value": "1.5L DOHC VTEC TURBO, 4 xi-lanh thẳng hàng, 16 van (1.498cc)"
+            },
+            {
+              "label": "Hộp số",
+              "value": "CVT"
+            },
+            {
+              "label": "Công suất",
+              "value": "176 mã lực (131 kW) @ 6.000 v/p"
+            },
+            {
+              "label": "Mô-men xoắn",
+              "value": "240 Nm @ 1.700-4.500 v/p"
+            },
+            {
+              "label": "Nhiên liệu",
+              "value": "Xăng"
+            },
+            {
+              "label": "Dung tích bình xăng",
+              "value": "47 lít"
+            },
+            {
+              "label": "Mức tiêu thụ (hỗn hợp)",
+              "value": "5,98 lít/100km"
+            },
+            {
+              "label": "Chiều rộng cơ sở (trước/sau)",
+              "value": "1.547 / 1.575 mm"
+            },
+            {
+              "label": "Cỡ lốp",
+              "value": "215/50R17"
+            },
+            {
+              "label": "La-zăng",
+              "value": "17 inch"
+            },
+            {
+              "label": "Bán kính quay vòng tối thiểu",
+              "value": "5,76 m"
+            },
+            {
+              "label": "Trọng lượng (bản thân)",
+              "value": "1.319 kg"
+            },
+            {
+              "label": "Khối lượng toàn tải",
+              "value": "1.760 kg"
+            }
+          ]
         },
         {
           "name": "RS",
-          "price": 889000000
+          "price": 889000000,
+          "status": "on_sale",
+          "specs": [
+            {
+              "label": "Động cơ",
+              "value": "1.5L DOHC VTEC TURBO, 4 xi-lanh thẳng hàng, 16 van (1.498cc)"
+            },
+            {
+              "label": "Hộp số",
+              "value": "CVT"
+            },
+            {
+              "label": "Công suất",
+              "value": "176 mã lực (131 kW) @ 6.000 v/p"
+            },
+            {
+              "label": "Mô-men xoắn",
+              "value": "240 Nm @ 1.700-4.500 v/p"
+            },
+            {
+              "label": "Nhiên liệu",
+              "value": "Xăng"
+            },
+            {
+              "label": "Dung tích bình xăng",
+              "value": "47 lít"
+            },
+            {
+              "label": "Mức tiêu thụ (hỗn hợp)",
+              "value": "6,52 lít/100km"
+            },
+            {
+              "label": "Chiều rộng cơ sở (trước/sau)",
+              "value": "1.537 / 1.565 mm"
+            },
+            {
+              "label": "Cỡ lốp",
+              "value": "235/40ZR18"
+            },
+            {
+              "label": "La-zăng",
+              "value": "18 inch"
+            },
+            {
+              "label": "Bán kính quay vòng tối thiểu",
+              "value": "6,04 m"
+            },
+            {
+              "label": "Trọng lượng (bản thân)",
+              "value": "1.338 kg"
+            },
+            {
+              "label": "Khối lượng toàn tải",
+              "value": "1.760 kg"
+            }
+          ]
         },
         {
-          "name": "G",
-          "price": 789000000
+          "name": "e:HEV RS",
+          "price": 999000000,
+          "status": "on_sale",
+          "specs": [
+            {
+              "label": "Động cơ",
+              "value": "2.0L DOHC, 4 xi-lanh thẳng hàng, 16 van (1.993cc) + mô-tơ điện (Hybrid e:HEV)"
+            },
+            {
+              "label": "Hộp số",
+              "value": "E-CVT"
+            },
+            {
+              "label": "Công suất",
+              "value": "Kết hợp 200 mã lực (149 kW) — máy xăng 139HP(104kW) + mô-tơ 181HP(135kW)"
+            },
+            {
+              "label": "Mô-men xoắn",
+              "value": "Mô-tơ điện 315 Nm @ 0-2.000 v/p (máy xăng 182 Nm @ 4.500)"
+            },
+            {
+              "label": "Nhiên liệu",
+              "value": "Xăng (Hybrid tự sạc)"
+            },
+            {
+              "label": "Dung tích bình xăng",
+              "value": "40 lít"
+            },
+            {
+              "label": "Mức tiêu thụ (hỗn hợp)",
+              "value": "4,56 lít/100km"
+            },
+            {
+              "label": "Chiều rộng cơ sở (trước/sau)",
+              "value": "1.537 / 1.565 mm"
+            },
+            {
+              "label": "Cỡ lốp",
+              "value": "235/40ZR18"
+            },
+            {
+              "label": "La-zăng",
+              "value": "18 inch"
+            },
+            {
+              "label": "Bán kính quay vòng tối thiểu",
+              "value": "6,04 m"
+            },
+            {
+              "label": "Trọng lượng (bản thân)",
+              "value": "1.436 kg"
+            },
+            {
+              "label": "Khối lượng toàn tải",
+              "value": "1.880 kg"
+            }
+          ]
         }
       ],
       "specs": [
         {
-          "label": "Động cơ",
-          "value": "2.0L DOHC, 4 xi lanh thẳng hàng, 16 van (1.993cc)"
-        },
-        {
-          "label": "Hộp số",
-          "value": "E-CVT"
-        },
-        {
-          "label": "Công suất",
-          "value": "200 mã lực (tổng hệ hybrid)"
-        },
-        {
-          "label": "Mô-men xoắn",
-          "value": "315 Nm (mô-tơ điện)"
-        },
-        {
-          "label": "Dung tích bình xăng",
-          "value": "40 lít"
-        },
-        {
-          "label": "Mức tiêu thụ (hỗn hợp)",
-          "value": "4,56 lít/100km"
+          "label": "Dẫn động",
+          "value": "Cầu trước (FWD)"
         },
         {
           "label": "Số chỗ ngồi",
@@ -231,27 +376,33 @@
           "value": "4.681 × 1.802 × 1.415 mm"
         },
         {
-          "label": "Trục cơ sở",
+          "label": "Chiều dài cơ sở",
           "value": "2.735 mm"
-        },
-        {
-          "label": "Cỡ lốp",
-          "value": "235/40ZR18"
         },
         {
           "label": "Khoảng sáng gầm",
           "value": "134 mm"
         },
         {
-          "label": "Trọng lượng (bản thân)",
-          "value": "1.436 kg"
+          "label": "Hệ thống treo trước",
+          "value": "MacPherson"
         },
         {
-          "label": "Nhiên liệu",
-          "value": "Xăng"
+          "label": "Hệ thống treo sau",
+          "value": "Liên kết đa điểm"
+        },
+        {
+          "label": "Phanh trước",
+          "value": "Đĩa tản nhiệt"
+        },
+        {
+          "label": "Phanh sau",
+          "value": "Đĩa"
         }
       ],
-      "updated_at": "2026-08-22T03:56:50+00:00"
+      "updated_at": "2026-08-22T03:56:50+00:00",
+      "locked": true,
+      "source_note": "Thông số theo brochure chính hãng Honda Civic (file hãng). G/RS = 1.5 Turbo, e:HEV RS = 2.0 Hybrid."
     },
     {
       "slug": "honda-civic-type-r",
