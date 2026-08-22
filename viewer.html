@@ -17,12 +17,21 @@
   header input{margin-left:auto;padding:7px 12px;border:1px solid var(--line);border-radius:8px;min-width:220px;font-size:14px}
   .wrap{display:flex;gap:20px;max-width:1180px;margin:20px auto;padding:0 20px;align-items:flex-start}
   .side{flex:0 0 300px;background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden}
-  .side .bh{padding:10px 16px;font-weight:700;background:#fafbfc;border-bottom:1px solid var(--line);font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.3px}
-  .side .m{padding:11px 16px;border-bottom:1px solid #f0f2f4;cursor:pointer;display:flex;justify-content:space-between;gap:8px}
-  .side .m:hover{background:#f6f9fd}
-  .side .m.active{background:#eaf3fc;border-left:3px solid var(--brand);padding-left:13px}
-  .side .m b{font-weight:600}
-  .side .m .p{color:var(--accent);font-size:13px;white-space:nowrap}
+
+  /* Sidebar 2 cấp: Hãng (node) › Dòng */
+  .brand{border-bottom:1px solid var(--line)}
+  .brand:last-child{border-bottom:0}
+  .brand-h{padding:11px 16px;font-weight:700;background:#fafbfc;cursor:pointer;display:flex;align-items:center;gap:8px;user-select:none}
+  .brand-h .tw{transition:transform .15s;color:var(--muted);font-size:11px}
+  .brand.collapsed .tw{transform:rotate(-90deg)}
+  .brand-h .cnt{margin-left:auto;color:var(--muted);font-size:12px;font-weight:400}
+  .brand.collapsed .models{display:none}
+  .m{padding:10px 16px 10px 34px;border-top:1px solid #f2f4f6;cursor:pointer;display:flex;justify-content:space-between;gap:8px}
+  .m:hover{background:#f6f9fd}
+  .m.active{background:#eaf3fc;box-shadow:inset 3px 0 0 var(--brand)}
+  .m b{font-weight:600}
+  .m .p{color:var(--accent);font-size:13px;white-space:nowrap}
+
   .main{flex:1;min-width:0}
   .detail{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px 30px}
   .crumb{font-size:13px;color:var(--muted);margin-bottom:6px}
@@ -30,13 +39,19 @@
   .detail h2{margin:0 0 4px;font-size:24px}
   .detail .sub{color:var(--muted);font-size:13px;margin-bottom:18px}
   .detail .sub a{color:var(--brand)}
-  .price{font-size:30px;font-weight:800;color:var(--accent);margin:4px 0 22px}
-  .price small{font-size:14px;color:var(--muted);font-weight:400}
-  h3{font-size:14px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);margin:24px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}
+
+  /* Tab phiên bản */
+  .tabs{display:flex;gap:6px;flex-wrap:wrap;border-bottom:2px solid var(--line);margin:18px 0 0}
+  .tab{padding:9px 16px;border:1px solid var(--line);border-bottom:none;border-radius:8px 8px 0 0;background:#f6f7f9;cursor:pointer;font-size:14px;font-weight:600;color:var(--muted);position:relative;top:2px}
+  .tab:hover{background:#eef2f7}
+  .tab.active{background:var(--card);color:var(--brand);border-color:var(--line);border-bottom:2px solid var(--card)}
+  .tab small{display:block;font-weight:400;font-size:11px;color:var(--accent);margin-top:1px}
+  .panel{padding:22px 2px 2px}
+  .price{font-size:30px;font-weight:800;color:var(--accent);margin:0 0 4px}
+  .panel .vlabel{color:var(--muted);font-size:13px;margin-bottom:20px}
+  h3{font-size:14px;text-transform:uppercase;letter-spacing:.4px;color:var(--muted);margin:22px 0 10px;border-bottom:1px solid var(--line);padding-bottom:6px}
   table{width:100%;border-collapse:collapse}
   td{padding:9px 4px;border-bottom:1px solid #f0f2f4;font-size:14px;vertical-align:top}
-  .versions td:first-child{font-weight:600}
-  .versions td:last-child{text-align:right;color:var(--accent);font-weight:600;white-space:nowrap}
   .specs td:first-child{color:var(--muted);width:210px}
   .specs td:last-child{font-weight:500}
   .empty{color:var(--muted);padding:60px;text-align:center}
@@ -48,67 +63,85 @@
 <header>
   <h1>🚗 VIG Car Data</h1>
   <span class="meta" id="meta">đang tải…</span>
-  <input id="q" type="search" placeholder="Tìm model…">
+  <input id="q" type="search" placeholder="Tìm dòng xe…">
 </header>
 <div class="wrap">
   <aside class="side" id="side"></aside>
-  <main class="main"><div class="detail" id="detail"><div class="empty">Chọn 1 model bên trái để xem chi tiết.</div></div></main>
+  <main class="main"><div class="detail" id="detail"><div class="empty">Chọn 1 dòng xe bên trái để xem chi tiết.</div></div></main>
 </div>
 <script>
-// Base kho: mặc định đọc data/ cùng thư mục (serve local). Đổi sang GitHub raw nếu muốn xem bản public.
 const BASE = 'data/';
 // const BASE = 'https://raw.githubusercontent.com/vigdigital/vig-car-data/master/data/';
 const money = n => (n ? Number(n).toLocaleString('vi-VN') + ' đ' : '—');
-const brandCache = {};
-let all = []; // {brand, brand_name, file, slug, name, price}
-// "Dòng" = tên model bỏ tiền tố hãng: "Honda CR-V" → "CR-V"
 const line = m => (m.name || '').replace(new RegExp('^\\s*' + (m.brand_name || '') + '\\s+', 'i'), '').trim() || m.name;
+const esc = s => (s==null?'':String(s)).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+const brandCache = {};
+let idx = null;
 
 async function boot(){
-  let idx;
   try{ idx = await (await fetch(BASE+'index.json',{cache:'no-store'})).json(); }
   catch(e){ document.getElementById('meta').textContent = 'Không đọc được index.json'; return; }
-  let models=0;
-  idx.brands.forEach(b=>{ (b.models||[]).forEach(m=>{ all.push({brand:b.brand,brand_name:b.brand_name,file:b.file,slug:m.slug,name:m.name,price:m.price}); models++; }); });
-  document.getElementById('meta').textContent = `${idx.brands.length} hãng · ${models} model · cập nhật ${(idx.updated_at||'').slice(0,10)}`;
-  render();
-  document.getElementById('q').addEventListener('input', render);
+  const models = idx.brands.reduce((n,b)=>n+(b.models||[]).length,0);
+  document.getElementById('meta').textContent = `${idx.brands.length} hãng · ${models} dòng xe · cập nhật ${(idx.updated_at||'').slice(0,10)}`;
+  renderSide();
+  document.getElementById('q').addEventListener('input', renderSide);
 }
-function render(){
+
+function renderSide(){
   const q=(document.getElementById('q').value||'').toLowerCase();
   const side=document.getElementById('side'); side.innerHTML='';
-  const byBrand={};
-  all.filter(m=>m.name.toLowerCase().includes(q)).forEach(m=>{(byBrand[m.brand_name]=byBrand[m.brand_name]||[]).push(m);});
-  Object.keys(byBrand).sort().forEach(bn=>{
-    const h=document.createElement('div'); h.className='bh'; h.textContent=bn; side.appendChild(h);
-    byBrand[bn].forEach(m=>{
-      const d=document.createElement('div'); d.className='m'; d.dataset.key=m.brand+'/'+m.slug;
-      d.innerHTML=`<b>${line(m)}</b><span class="p">${money(m.price)}</span>`;
-      d.onclick=()=>open(m,d);
-      side.appendChild(d);
+  idx.brands.forEach(b=>{
+    const models=(b.models||[]).filter(m=>(m.name||'').toLowerCase().includes(q));
+    if(!models.length) return;
+    const box=document.createElement('div'); box.className='brand';
+    const h=document.createElement('div'); h.className='brand-h';
+    h.innerHTML=`<span class="tw">▼</span> ${esc(b.brand_name)} <span class="cnt">${models.length}</span>`;
+    h.onclick=()=>box.classList.toggle('collapsed');
+    box.appendChild(h);
+    const ml=document.createElement('div'); ml.className='models';
+    models.forEach(m=>{
+      const meta={brand:b.brand,brand_name:b.brand_name,file:b.file,slug:m.slug,name:m.name,price:m.price};
+      const d=document.createElement('div'); d.className='m';
+      d.innerHTML=`<b>${esc(line(meta))}</b><span class="p">${money(m.price)}</span>`;
+      d.onclick=()=>{document.querySelectorAll('.side .m').forEach(x=>x.classList.remove('active'));d.classList.add('active');openModel(meta);};
+      ml.appendChild(d);
     });
+    box.appendChild(ml); side.appendChild(box);
   });
-  if(!all.length) side.innerHTML='<div class="empty" style="padding:30px">Kho trống.</div>';
+  if(!side.children.length) side.innerHTML='<div class="empty" style="padding:30px">Không có dòng xe.</div>';
 }
-async function open(m,el){
-  document.querySelectorAll('.side .m').forEach(x=>x.classList.remove('active'));
-  if(el) el.classList.add('active');
-  if(!brandCache[m.file]){ brandCache[m.file]=await (await fetch(BASE+m.file,{cache:'no-store'})).json(); }
-  const model=(brandCache[m.file].models||[]).find(x=>x.slug===m.slug);
+
+async function openModel(meta){
+  if(!brandCache[meta.file]){ brandCache[meta.file]=await (await fetch(BASE+meta.file,{cache:'no-store'})).json(); }
+  const model=(brandCache[meta.file].models||[]).find(x=>x.slug===meta.slug);
   const box=document.getElementById('detail');
-  if(!model){ box.innerHTML='<div class="empty">Không thấy dữ liệu model.</div>'; return; }
-  const ln=line(m);
-  const vrows=(model.versions||[]).map(v=>`<tr><td>${ln} ${v.name||''}</td><td>${money(v.price)}</td></tr>`).join('');
-  const srows=(model.specs||[]).map(s=>`<tr><td>${s.label||''}</td><td>${s.value||''}</td></tr>`).join('');
+  if(!model){ box.innerHTML='<div class="empty">Không thấy dữ liệu.</div>'; return; }
+  const ln=line(meta);
+  const versions=model.versions||[];
+  const specs=model.specs||[];
+  const specTable=`<h3>Thông số kỹ thuật (${specs.length})</h3><table class="specs"><tbody>${
+    specs.map(s=>`<tr><td>${esc(s.label)}</td><td>${esc(s.value)}</td></tr>`).join('')||'<tr><td colspan=2 class=empty>—</td></tr>'
+  }</tbody></table>`;
+
+  // Tabs = phiên bản. Nội dung tab = giá bản đó + thông số (chung cho dòng).
+  const tabs=versions.map((v,i)=>`<div class="tab${i===0?' active':''}" data-i="${i}">${esc(ln+' '+(v.name||''))}<small>${money(v.price)}</small></div>`).join('');
   box.innerHTML=`
-    <div class="crumb">${m.brand_name} <span>›</span> ${ln}</div>
-    <h2>${model.name} ${model.year?`<span class="chip">${model.year}</span>`:''}</h2>
-    <div class="sub">Nguồn: ${model.source||'?'} · <a href="${model.source_url||'#'}" target="_blank" rel="noopener">link nguồn</a> · cập nhật ${(model.updated_at||'').slice(0,10)}</div>
-    <div class="price">${money(model.price)} <small>(bản thấp nhất)</small></div>
-    <h3>Phiên bản (${(model.versions||[]).length})</h3>
-    <table class="versions"><tbody>${vrows||'<tr><td colspan=2 class=empty>—</td></tr>'}</tbody></table>
-    <h3>Thông số kỹ thuật (${(model.specs||[]).length})</h3>
-    <table class="specs"><tbody>${srows||'<tr><td colspan=2 class=empty>—</td></tr>'}</tbody></table>`;
+    <div class="crumb">${esc(meta.brand_name)} <span>›</span> ${esc(ln)}</div>
+    <h2>${esc(model.name)} ${model.year?`<span class="chip">${esc(model.year)}</span>`:''}</h2>
+    <div class="sub">${versions.length} phiên bản · nguồn ${esc(model.source||'?')} · <a href="${esc(model.source_url||'#')}" target="_blank" rel="noopener">link nguồn</a> · cập nhật ${(model.updated_at||'').slice(0,10)}</div>
+    ${versions.length?`<div class="tabs">${tabs}</div>`:''}
+    <div class="panel" id="panel"></div>`;
+
+  const panel=box.querySelector('#panel');
+  function showTab(i){
+    const v=versions[i]||{name:'',price:model.price};
+    panel.innerHTML=`<div class="price">${money(v.price)}</div><div class="vlabel">Phiên bản <strong>${esc(ln+' '+(v.name||''))}</strong> · thông số chung của dòng ${esc(ln)}</div>${specTable}`;
+  }
+  box.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
+    box.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
+    t.classList.add('active'); showTab(+t.dataset.i);
+  });
+  showTab(0);
 }
 boot();
 </script>
