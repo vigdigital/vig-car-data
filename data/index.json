@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-22T07:09:55+00:00",
+    "updated_at": "2026-08-22T09:57:32+00:00",
     "brands": [
         {
             "brand": "honda",
@@ -40,7 +40,7 @@
                     "name": "Honda HR-V",
                     "price": 669000000,
                     "status": "on_sale",
-                    "rev": "da97ea606bc6"
+                    "rev": "a7e6249330d7"
                 },
                 {
                     "slug": "honda-br-v",
