@@ -21,6 +21,9 @@
           "source_url":  { "type": "string", "format": "uri" },
           "source_note": { "type": "string", "description": "ghi chú nguồn/độ tin cậy (tuỳ chọn)" },
           "locked":      { "type": "boolean", "description": "true = đã curate tay, 'wp vig-car build' KHÔNG scrape đè (giữ nguyên)" },
+          "status":      { "type": "string", "enum": ["on_sale", "discontinued"], "default": "on_sale",
+                           "description": "trạng thái CẢ DÒNG: discontinued = ngừng bán (site ẩn khỏi lineup)" },
+          "status_note": { "type": "string" },
           "price":       { "type": "integer", "description": "giá thấp nhất trong các bản ĐANG BÁN (đồng)" },
           "versions": {
             "type": "array",

@@ -168,7 +168,8 @@
       "versions": [
         {
           "name": "CIVIC TYPE R",
-          "price": 2999000000
+          "price": 2999000000,
+          "status": "discontinued"
         }
       ],
       "specs": [
@@ -225,7 +226,9 @@
           "value": "Xăng"
         }
       ],
-      "updated_at": "2026-08-22T03:56:51+00:00"
+      "updated_at": "2026-08-22T03:56:51+00:00",
+      "status": "discontinued",
+      "status_note": "Không có trong bảng giá đại lý hiện hành (2026-08). Xe halo, có thể đặt riêng — xác nhận với đại lý."
     },
     {
       "slug": "honda-cr-v",

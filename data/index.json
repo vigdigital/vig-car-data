@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-22T06:47:50+00:00",
+    "updated_at": "2026-08-22T07:09:55+00:00",
     "brands": [
         {
             "brand": "honda",
@@ -11,36 +11,42 @@
                     "slug": "honda-city",
                     "name": "Honda City",
                     "price": 499000000,
+                    "status": "on_sale",
                     "rev": "31773c65719f"
                 },
                 {
                     "slug": "honda-civic",
                     "name": "Honda Civic",
                     "price": 789000000,
+                    "status": "on_sale",
                     "rev": "ee69a28c873c"
                 },
                 {
                     "slug": "honda-civic-type-r",
                     "name": "Honda Civic Type R",
                     "price": 2999000000,
-                    "rev": "beb4301c894c"
+                    "status": "discontinued",
+                    "rev": "79d92faea319"
                 },
                 {
                     "slug": "honda-cr-v",
                     "name": "Honda CR-V",
                     "price": 1039000000,
+                    "status": "on_sale",
                     "rev": "df85eef320a9"
                 },
                 {
                     "slug": "honda-hr-v",
                     "name": "Honda HR-V",
                     "price": 669000000,
+                    "status": "on_sale",
                     "rev": "da97ea606bc6"
                 },
                 {
                     "slug": "honda-br-v",
                     "name": "Honda BR-V",
                     "price": 629000000,
+                    "status": "on_sale",
                     "rev": "cbb380c485a4"
                 }
             ]
