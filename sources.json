@@ -3,7 +3,11 @@
     "brand_name": "Honda",
     "urls": [
       { "url": "https://www.honda.com.vn/o-to/chi-tiet/2",  "name": "Honda City" },
-      { "url": "https://www.honda.com.vn/o-to/chi-tiet/17", "name": "Honda CR-V" }
+      { "url": "https://www.honda.com.vn/o-to/chi-tiet/19", "name": "Honda Civic" },
+      { "url": "https://www.honda.com.vn/o-to/chi-tiet/17", "name": "Honda CR-V" },
+      { "url": "https://www.honda.com.vn/o-to/chi-tiet/21", "name": "Honda HR-V" },
+      { "url": "https://www.honda.com.vn/o-to/chi-tiet/18", "name": "Honda BR-V" },
+      { "url": "https://www.honda.com.vn/o-to/chi-tiet/20", "name": "Honda Accord" }
     ]
   }
 }

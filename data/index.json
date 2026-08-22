@@ -1,11 +1,11 @@
 {
-    "updated_at": "2026-08-22T03:24:23+00:00",
+    "updated_at": "2026-08-22T03:55:53+00:00",
     "brands": [
         {
             "brand": "honda",
             "brand_name": "Honda",
             "file": "honda.json",
-            "count": 2,
+            "count": 6,
             "models": [
                 {
                     "slug": "honda-city",
@@ -16,6 +16,26 @@
                     "slug": "honda-cr-v",
                     "name": "Honda CR-V",
                     "price": 1039000000
+                },
+                {
+                    "slug": "honda-civic",
+                    "name": "Honda Civic",
+                    "price": 789000000
+                },
+                {
+                    "slug": "honda-hr-v",
+                    "name": "Honda HR-V",
+                    "price": 669000000
+                },
+                {
+                    "slug": "honda-br-v",
+                    "name": "Honda BR-V",
+                    "price": 629000000
+                },
+                {
+                    "slug": "honda-accord",
+                    "name": "Honda Accord",
+                    "price": 2999000000
                 }
             ]
         }

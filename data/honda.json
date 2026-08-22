@@ -1,8 +1,8 @@
 {
     "brand": "honda",
     "brand_name": "Honda",
-    "updated_at": "2026-08-22T03:24:23+00:00",
-    "count": 2,
+    "updated_at": "2026-08-22T03:55:53+00:00",
+    "count": 6,
     "models": [
         {
             "slug": "honda-city",
@@ -79,7 +79,7 @@
                     "value": "Xăng"
                 }
             ],
-            "updated_at": "2026-08-22T03:24:21+00:00"
+            "updated_at": "2026-08-22T03:55:47+00:00"
         },
         {
             "slug": "honda-cr-v",
@@ -164,7 +164,303 @@
                     "value": "Xăng"
                 }
             ],
-            "updated_at": "2026-08-22T03:24:22+00:00"
+            "updated_at": "2026-08-22T03:55:49+00:00"
+        },
+        {
+            "slug": "honda-civic",
+            "name": "Honda Civic",
+            "year": null,
+            "source": "honda",
+            "source_url": "https://www.honda.com.vn/o-to/chi-tiet/19",
+            "price": 789000000,
+            "versions": [
+                {
+                    "name": "e:HEV RS",
+                    "price": 1004000000
+                },
+                {
+                    "name": "RS",
+                    "price": 889000000
+                },
+                {
+                    "name": "G",
+                    "price": 789000000
+                }
+            ],
+            "specs": [
+                {
+                    "label": "Động cơ",
+                    "value": "2.0L DOHC, 4 xi lanh thẳng hàng, 16 van (1.993cc)"
+                },
+                {
+                    "label": "Hộp số",
+                    "value": "E-CVT"
+                },
+                {
+                    "label": "Công suất",
+                    "value": "200 mã lực (tổng hệ hybrid)"
+                },
+                {
+                    "label": "Mô-men xoắn",
+                    "value": "315 Nm (mô-tơ điện)"
+                },
+                {
+                    "label": "Dung tích bình xăng",
+                    "value": "40 lít"
+                },
+                {
+                    "label": "Mức tiêu thụ (hỗn hợp)",
+                    "value": "4,56 lít/100km"
+                },
+                {
+                    "label": "Số chỗ ngồi",
+                    "value": "5"
+                },
+                {
+                    "label": "Kích thước (D×R×C)",
+                    "value": "4.681 × 1.802 × 1.415 mm"
+                },
+                {
+                    "label": "Trục cơ sở",
+                    "value": "2.735 mm"
+                },
+                {
+                    "label": "Cỡ lốp",
+                    "value": "235/40ZR18"
+                },
+                {
+                    "label": "Khoảng sáng gầm",
+                    "value": "134 mm"
+                },
+                {
+                    "label": "Trọng lượng (bản thân)",
+                    "value": "1.436 kg"
+                },
+                {
+                    "label": "Nhiên liệu",
+                    "value": "Xăng"
+                }
+            ],
+            "updated_at": "2026-08-22T03:55:48+00:00"
+        },
+        {
+            "slug": "honda-hr-v",
+            "name": "Honda HR-V",
+            "year": null,
+            "source": "honda",
+            "source_url": "https://www.honda.com.vn/o-to/chi-tiet/21",
+            "price": 669000000,
+            "versions": [
+                {
+                    "name": "G",
+                    "price": 669000000
+                },
+                {
+                    "name": "L",
+                    "price": 750000000
+                },
+                {
+                    "name": "e:HEV RS",
+                    "price": 835000000
+                }
+            ],
+            "specs": [
+                {
+                    "label": "Động cơ",
+                    "value": "1.5L DOHC i-VTEC, động cơ 4 kỳ, 4 xi-lanh thẳng hàng (1.498cc)"
+                },
+                {
+                    "label": "Hộp số",
+                    "value": "CVT"
+                },
+                {
+                    "label": "Công suất",
+                    "value": "119 mã lực @ 6.600 v/p"
+                },
+                {
+                    "label": "Mô-men xoắn",
+                    "value": "145 Nm @ 4.300 v/p"
+                },
+                {
+                    "label": "Dung tích bình xăng",
+                    "value": "40 lít"
+                },
+                {
+                    "label": "Mức tiêu thụ (hỗn hợp)",
+                    "value": "6,7 lít/100km"
+                },
+                {
+                    "label": "Số chỗ ngồi",
+                    "value": "5"
+                },
+                {
+                    "label": "Kích thước (D×R×C)",
+                    "value": "4.347 × 1.790 × 1.590 mm"
+                },
+                {
+                    "label": "Trục cơ sở",
+                    "value": "2610 mm"
+                },
+                {
+                    "label": "Cỡ lốp",
+                    "value": "215/60R17"
+                },
+                {
+                    "label": "Khoảng sáng gầm",
+                    "value": "195 mm"
+                },
+                {
+                    "label": "Trọng lượng (bản thân)",
+                    "value": "1262 kg"
+                },
+                {
+                    "label": "Nhiên liệu",
+                    "value": "Xăng"
+                }
+            ],
+            "updated_at": "2026-08-22T03:55:50+00:00"
+        },
+        {
+            "slug": "honda-br-v",
+            "name": "Honda BR-V",
+            "year": null,
+            "source": "honda",
+            "source_url": "https://www.honda.com.vn/o-to/chi-tiet/18",
+            "price": 629000000,
+            "versions": [
+                {
+                    "name": "G",
+                    "price": 629000000
+                },
+                {
+                    "name": "L",
+                    "price": 705000000
+                }
+            ],
+            "specs": [
+                {
+                    "label": "Động cơ",
+                    "value": "1.5L DOHC i-VTEC, 4 xi lanh thẳng hàng, 16 van (1.498cc)"
+                },
+                {
+                    "label": "Hộp số",
+                    "value": "Vô cấp CVT"
+                },
+                {
+                    "label": "Công suất",
+                    "value": "119 mã lực @ 6.600 v/p"
+                },
+                {
+                    "label": "Mô-men xoắn",
+                    "value": "145 Nm @ 4.300 v/p"
+                },
+                {
+                    "label": "Dung tích bình xăng",
+                    "value": "42 lít"
+                },
+                {
+                    "label": "Mức tiêu thụ (hỗn hợp)",
+                    "value": "6,4 lít/100km"
+                },
+                {
+                    "label": "Số chỗ ngồi",
+                    "value": "7"
+                },
+                {
+                    "label": "Kích thước (D×R×C)",
+                    "value": "4.490 × 1.780 × 1.685 mm"
+                },
+                {
+                    "label": "Trục cơ sở",
+                    "value": "2.700 mm"
+                },
+                {
+                    "label": "Cỡ lốp",
+                    "value": "215/55R17"
+                },
+                {
+                    "label": "Khoảng sáng gầm",
+                    "value": "207 mm"
+                },
+                {
+                    "label": "Trọng lượng (bản thân)",
+                    "value": "1.265 kg"
+                },
+                {
+                    "label": "Nhiên liệu",
+                    "value": "Xăng"
+                }
+            ],
+            "updated_at": "2026-08-22T03:55:52+00:00"
+        },
+        {
+            "slug": "honda-accord",
+            "name": "Honda Accord",
+            "year": null,
+            "source": "honda",
+            "source_url": "https://www.honda.com.vn/o-to/chi-tiet/20",
+            "price": 2999000000,
+            "versions": [
+                {
+                    "name": "CIVIC TYPE R",
+                    "price": 2999000000
+                }
+            ],
+            "specs": [
+                {
+                    "label": "Động cơ",
+                    "value": "2.0L DOHC VTEC Turbo, 4 xi lanh thẳng hàng, 16 van (1.996cc)"
+                },
+                {
+                    "label": "Hộp số",
+                    "value": "6MT"
+                },
+                {
+                    "label": "Công suất",
+                    "value": "315 mã lực @ 6.500 v/p"
+                },
+                {
+                    "label": "Mô-men xoắn",
+                    "value": "420/2.600 - 4.000"
+                },
+                {
+                    "label": "Dung tích bình xăng",
+                    "value": "47 lít"
+                },
+                {
+                    "label": "Mức tiêu thụ (hỗn hợp)",
+                    "value": "9,20 lít/100km"
+                },
+                {
+                    "label": "Số chỗ ngồi",
+                    "value": "4"
+                },
+                {
+                    "label": "Kích thước (D×R×C)",
+                    "value": "4.593 × 1.890 × 1.407 mm"
+                },
+                {
+                    "label": "Trục cơ sở",
+                    "value": "2.735 mm"
+                },
+                {
+                    "label": "Cỡ lốp",
+                    "value": "265/30ZR19"
+                },
+                {
+                    "label": "Khoảng sáng gầm",
+                    "value": "123 mm"
+                },
+                {
+                    "label": "Trọng lượng (bản thân)",
+                    "value": "1.424 kg"
+                },
+                {
+                    "label": "Nhiên liệu",
+                    "value": "Xăng"
+                }
+            ],
+            "updated_at": "2026-08-22T03:55:53+00:00"
         }
     ]
 }
