@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-22T09:57:32+00:00",
+    "updated_at": "2026-08-22T10:00:04+00:00",
     "brands": [
         {
             "brand": "honda",
@@ -12,7 +12,7 @@
                     "name": "Honda City",
                     "price": 499000000,
                     "status": "on_sale",
-                    "rev": "31773c65719f"
+                    "rev": "973e99b02bf4"
                 },
                 {
                     "slug": "honda-civic",
