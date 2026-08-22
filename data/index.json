@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-22T14:07:18+00:00",
+    "updated_at": "2026-08-22T14:15:22+00:00",
     "brands": [
         {
             "brand": "byd",
@@ -12,7 +12,7 @@
                     "name": "BYD Atto 2",
                     "price": 669000000,
                     "status": "on_sale",
-                    "rev": "7c04ee75db80"
+                    "rev": "098eced5a1a3"
                 },
                 {
                     "slug": "byd-atto-3",

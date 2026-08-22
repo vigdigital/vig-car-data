@@ -9,7 +9,7 @@
       "name": "BYD Atto 2",
       "year": null,
       "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-atto-2-297",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-atto-2-2025-atto-2-1067",
       "price": 669000000,
       "versions": [
         {
@@ -21,6 +21,10 @@
       ],
       "specs": [
         {
+          "label": "Nhiên liệu",
+          "value": "Điện"
+        },
+        {
           "label": "Hộp số",
           "value": "1 cấp"
         },
@@ -29,16 +33,12 @@
           "value": "Cầu trước (FWD)"
         },
         {
-          "label": "Tầm hoạt động (km)",
-          "value": "380"
+          "label": "Quãng đường/lần sạc (NEDC)",
+          "value": "380 km"
         },
         {
           "label": "Loại pin",
           "value": "Blade battery"
-        },
-        {
-          "label": "Cần số điện tử",
-          "value": "Không"
         },
         {
           "label": "Dung lượng pin",
@@ -53,12 +53,124 @@
           "value": "290 Nm"
         },
         {
+          "label": "Tăng tốc 0-100 km/h",
+          "value": "8,3 giây"
+        },
+        {
+          "label": "Công suất sạc AC",
+          "value": "7 kW"
+        },
+        {
           "label": "Số chỗ ngồi",
           "value": "5"
+        },
+        {
+          "label": "Kích thước (D×R×C)",
+          "value": "4.310 × 1.830 × 1.675 mm"
+        },
+        {
+          "label": "Trục cơ sở",
+          "value": "2.620 mm"
+        },
+        {
+          "label": "Khoảng sáng gầm",
+          "value": "170 mm"
+        },
+        {
+          "label": "Dung tích cốp sau",
+          "value": "400 lít"
+        },
+        {
+          "label": "Trọng lượng (bản thân)",
+          "value": "1.570"
+        },
+        {
+          "label": "Cỡ lốp",
+          "value": "215/65 R16"
+        },
+        {
+          "label": "Hệ thống treo trước",
+          "value": "MacPherson"
+        },
+        {
+          "label": "Hệ thống treo sau",
+          "value": "Thanh xoắn với lò xo cuộn"
+        },
+        {
+          "label": "Phanh trước",
+          "value": "Đĩa"
+        },
+        {
+          "label": "Phanh sau",
+          "value": "Đĩa"
+        },
+        {
+          "label": "Đèn chiếu xa",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn chiếu gần",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn ban ngày",
+          "value": "LED"
+        },
+        {
+          "label": "Đèn hậu",
+          "value": "LED"
+        },
+        {
+          "label": "Gương chiếu hậu",
+          "value": "Chỉnh điện"
+        },
+        {
+          "label": "Chất liệu bọc ghế",
+          "value": "Da nhân tạo"
+        },
+        {
+          "label": "Điều chỉnh ghế lái",
+          "value": "Điện"
+        },
+        {
+          "label": "Điều chỉnh ghế phụ",
+          "value": "Cơ"
+        },
+        {
+          "label": "Bảng đồng hồ tài xế",
+          "value": "8,8 inch"
+        },
+        {
+          "label": "Chất liệu bọc vô-lăng",
+          "value": "Da PU"
+        },
+        {
+          "label": "Hàng ghế thứ hai",
+          "value": "Gập 60:40"
+        },
+        {
+          "label": "Điều hoà",
+          "value": "Tự động"
+        },
+        {
+          "label": "Màn hình giải trí",
+          "value": "12,8 inch"
+        },
+        {
+          "label": "Điều chỉnh vô-lăng",
+          "value": "Cơ"
+        },
+        {
+          "label": "Trợ lực vô-lăng",
+          "value": "Điện"
+        },
+        {
+          "label": "Số túi khí",
+          "value": "6"
         }
       ],
-      "updated_at": "2026-08-22T11:23:05+00:00",
-      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+      "updated_at": "2026-08-22T14:15:22+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết); giá theo kho."
     },
     {
       "slug": "byd-atto-3",
