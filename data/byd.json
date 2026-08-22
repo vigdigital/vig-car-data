@@ -503,18 +503,18 @@
       "name": "BYD Sealion 6",
       "year": null,
       "source": "catalogue",
-      "source_url": "https://bydgoevbinhthuan.vn/cars/byd-sealion-6/",
-      "price": 839000000,
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-sealion-6-295",
+      "price": 799000000,
       "versions": [
         {
           "name": "Dynamic",
-          "price": 839000000,
+          "price": 799000000,
           "status": "on_sale",
           "specs": []
         },
         {
           "name": "Premium",
-          "price": 936000000,
+          "price": 899000000,
           "status": "on_sale",
           "specs": []
         }
@@ -625,8 +625,8 @@
           "value": "Hợp kim nhôm"
         }
       ],
-      "updated_at": "2026-08-22T13:46:35+00:00",
-      "source_note": "Thông số theo CATALOGUE chính hãng BYD Sealion 6; giá theo dealer (Dynamic 839tr, Premium 936tr). Đã sửa: công suất 214HP (kho VnExpress ghi sai 96, website ghi 218).",
+      "updated_at": "2026-08-22T13:50:04+00:00",
+      "source_note": "Thông số theo CATALOGUE chính hãng BYD; GIÁ theo kho (VnExpress). Công suất 214HP (đã sửa: VnExpress ghi sai 96).",
       "locked": true
     },
     {
