@@ -502,19 +502,19 @@
       "slug": "byd-sealion-6",
       "name": "BYD Sealion 6",
       "year": null,
-      "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-sealion-6-295",
-      "price": 799000000,
+      "source": "catalogue",
+      "source_url": "https://bydgoevbinhthuan.vn/cars/byd-sealion-6/",
+      "price": 839000000,
       "versions": [
         {
           "name": "Dynamic",
-          "price": 799000000,
+          "price": 839000000,
           "status": "on_sale",
           "specs": []
         },
         {
           "name": "Premium",
-          "price": 899000000,
+          "price": 936000000,
           "status": "on_sale",
           "specs": []
         }
@@ -522,35 +522,112 @@
       "specs": [
         {
           "label": "Động cơ",
-          "value": "Plug-in hybrid 1.5"
-        },
-        {
-          "label": "Dung tích (cc)",
-          "value": "1500"
+          "value": "Plug-in Hybrid DM-i — máy xăng Xiaoyun 1.5L (72 kW) + motor điện (145 kW)"
         },
         {
           "label": "Công suất",
-          "value": "96 mã lực"
+          "value": "214 mã lực (160 kW) — công suất kết hợp"
         },
         {
           "label": "Mô-men xoắn",
-          "value": "122 Nm"
+          "value": "300 Nm"
         },
         {
-          "label": "Loại pin",
-          "value": "BYD Blade"
+          "label": "Dẫn động",
+          "value": "Cầu trước (FWD)"
+        },
+        {
+          "label": "Nhiên liệu",
+          "value": "Hybrid (Xăng & Điện)"
+        },
+        {
+          "label": "Dung tích bình xăng",
+          "value": "60 lít"
+        },
+        {
+          "label": "Mức tiêu thụ (hỗn hợp)",
+          "value": "3,5–4,8 lít/100km"
+        },
+        {
+          "label": "Quãng đường thuần điện (NEDC)",
+          "value": "100 km"
         },
         {
           "label": "Dung lượng pin",
           "value": "18,3 kWh"
         },
         {
+          "label": "Loại pin",
+          "value": "BYD Blade Battery"
+        },
+        {
           "label": "Số chỗ ngồi",
           "value": "5"
+        },
+        {
+          "label": "Kích thước (D×R×C)",
+          "value": "4.775 × 1.890 × 1.670 mm"
+        },
+        {
+          "label": "Trục cơ sở",
+          "value": "2.765 mm"
+        },
+        {
+          "label": "Vệt bánh xe (trước/sau)",
+          "value": "1.630 / 1.630 mm"
+        },
+        {
+          "label": "Khoảng sáng gầm",
+          "value": "173 mm"
+        },
+        {
+          "label": "Bán kính quay vòng tối thiểu",
+          "value": "5,5 m"
+        },
+        {
+          "label": "Dung tích cốp sau",
+          "value": "425 lít"
+        },
+        {
+          "label": "Trọng lượng (bản thân)",
+          "value": "1.830 kg"
+        },
+        {
+          "label": "Khối lượng toàn tải",
+          "value": "2.240 kg"
+        },
+        {
+          "label": "Tăng tốc 0-100 km/h",
+          "value": "8,3 giây"
+        },
+        {
+          "label": "Hệ thống treo trước",
+          "value": "MacPherson"
+        },
+        {
+          "label": "Hệ thống treo sau",
+          "value": "Độc lập - Đa liên kết"
+        },
+        {
+          "label": "Phanh trước",
+          "value": "Đĩa thông gió"
+        },
+        {
+          "label": "Phanh sau",
+          "value": "Đĩa (không thông gió)"
+        },
+        {
+          "label": "Cỡ lốp",
+          "value": "235/50 R19"
+        },
+        {
+          "label": "La-zăng",
+          "value": "Hợp kim nhôm"
         }
       ],
-      "updated_at": "2026-08-22T11:23:05+00:00",
-      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+      "updated_at": "2026-08-22T13:46:35+00:00",
+      "source_note": "Thông số theo CATALOGUE chính hãng BYD Sealion 6; giá theo dealer (Dynamic 839tr, Premium 936tr). Đã sửa: công suất 214HP (kho VnExpress ghi sai 96, website ghi 218).",
+      "locked": true
     },
     {
       "slug": "byd-sealion-8",

@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-22T11:23:48+00:00",
+    "updated_at": "2026-08-22T13:46:35+00:00",
     "brands": [
         {
             "brand": "byd",
@@ -66,9 +66,9 @@
                 {
                     "slug": "byd-sealion-6",
                     "name": "BYD Sealion 6",
-                    "price": 799000000,
+                    "price": 839000000,
                     "status": "on_sale",
-                    "rev": "76355377e668"
+                    "rev": "61950c773d2b"
                 },
                 {
                     "slug": "byd-sealion-8",
