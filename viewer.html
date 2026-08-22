@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
 <title>VIG Car Data — Kho xe</title>
 <style>
   :root{
@@ -66,7 +68,8 @@
 <header>
   <h1>🚗 VIG Car Data</h1>
   <span class="meta" id="meta">đang tải…</span>
-  <input id="q" type="search" placeholder="Tìm dòng xe…">
+  <button id="reload" title="Tải lại dữ liệu mới nhất" style="margin-left:auto;padding:7px 12px;border:1px solid var(--line);border-radius:8px;background:var(--card);cursor:pointer">🔄 Tải lại</button>
+  <input id="q" type="search" placeholder="Tìm dòng xe…" style="margin-left:0">
 </header>
 <div class="wrap">
   <aside class="side" id="side"></aside>
@@ -85,7 +88,9 @@ async function boot(){
   try{ idx = await (await fetch(BASE+'index.json',{cache:'no-store'})).json(); }
   catch(e){ document.getElementById('meta').textContent = 'Không đọc được index.json'; return; }
   const models = idx.brands.reduce((n,b)=>n+(b.models||[]).length,0);
-  document.getElementById('meta').textContent = `${idx.brands.length} hãng · ${models} dòng xe · cập nhật ${(idx.updated_at||'').slice(0,10)}`;
+  const upd = (idx.updated_at||'').replace('T',' ').replace(/\+.*$/,'').slice(0,16);
+  document.getElementById('meta').textContent = `${idx.brands.length} hãng · ${models} dòng xe · cập nhật ${upd} (giờ UTC)`;
+  const rb = document.getElementById('reload'); if (rb) rb.onclick = () => location.reload(true);
   renderSide();
   document.getElementById('q').addEventListener('input', renderSide);
 }
