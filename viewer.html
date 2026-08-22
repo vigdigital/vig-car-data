@@ -25,6 +25,8 @@
   .side .m .p{color:var(--accent);font-size:13px;white-space:nowrap}
   .main{flex:1;min-width:0}
   .detail{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:26px 30px}
+  .crumb{font-size:13px;color:var(--muted);margin-bottom:6px}
+  .crumb span{color:#c3c4c7;margin:0 4px}
   .detail h2{margin:0 0 4px;font-size:24px}
   .detail .sub{color:var(--muted);font-size:13px;margin-bottom:18px}
   .detail .sub a{color:var(--brand)}
@@ -59,6 +61,8 @@ const BASE = 'data/';
 const money = n => (n ? Number(n).toLocaleString('vi-VN') + ' đ' : '—');
 const brandCache = {};
 let all = []; // {brand, brand_name, file, slug, name, price}
+// "Dòng" = tên model bỏ tiền tố hãng: "Honda CR-V" → "CR-V"
+const line = m => (m.name || '').replace(new RegExp('^\\s*' + (m.brand_name || '') + '\\s+', 'i'), '').trim() || m.name;
 
 async function boot(){
   let idx;
@@ -79,7 +83,7 @@ function render(){
     const h=document.createElement('div'); h.className='bh'; h.textContent=bn; side.appendChild(h);
     byBrand[bn].forEach(m=>{
       const d=document.createElement('div'); d.className='m'; d.dataset.key=m.brand+'/'+m.slug;
-      d.innerHTML=`<b>${m.name}</b><span class="p">${money(m.price)}</span>`;
+      d.innerHTML=`<b>${line(m)}</b><span class="p">${money(m.price)}</span>`;
       d.onclick=()=>open(m,d);
       side.appendChild(d);
     });
@@ -93,9 +97,11 @@ async function open(m,el){
   const model=(brandCache[m.file].models||[]).find(x=>x.slug===m.slug);
   const box=document.getElementById('detail');
   if(!model){ box.innerHTML='<div class="empty">Không thấy dữ liệu model.</div>'; return; }
-  const vrows=(model.versions||[]).map(v=>`<tr><td>${v.name||''}</td><td>${money(v.price)}</td></tr>`).join('');
+  const ln=line(m);
+  const vrows=(model.versions||[]).map(v=>`<tr><td>${ln} ${v.name||''}</td><td>${money(v.price)}</td></tr>`).join('');
   const srows=(model.specs||[]).map(s=>`<tr><td>${s.label||''}</td><td>${s.value||''}</td></tr>`).join('');
   box.innerHTML=`
+    <div class="crumb">${m.brand_name} <span>›</span> ${ln}</div>
     <h2>${model.name} ${model.year?`<span class="chip">${model.year}</span>`:''}</h2>
     <div class="sub">Nguồn: ${model.source||'?'} · <a href="${model.source_url||'#'}" target="_blank" rel="noopener">link nguồn</a> · cập nhật ${(model.updated_at||'').slice(0,10)}</div>
     <div class="price">${money(model.price)} <small>(bản thấp nhất)</small></div>
