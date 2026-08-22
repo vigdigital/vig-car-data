@@ -321,8 +321,8 @@
       "slug": "byd-m6",
       "name": "BYD M6",
       "year": null,
-      "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-m6-280",
+      "source": "catalogue",
+      "source_url": "https://bydgoevbinhthuan.vn/cars/byd-m6/",
       "price": 756000000,
       "versions": [
         {
@@ -334,44 +334,109 @@
       ],
       "specs": [
         {
-          "label": "Hộp số",
-          "value": "1 cấp"
+          "label": "Động cơ",
+          "value": "Motor điện đồng bộ nam châm vĩnh cửu"
+        },
+        {
+          "label": "Công suất",
+          "value": "161 HP"
+        },
+        {
+          "label": "Mô-men xoắn",
+          "value": "310 Nm"
         },
         {
           "label": "Dẫn động",
-          "value": "FWD"
+          "value": "Cầu trước (FWD)"
         },
         {
-          "label": "Tầm hoạt động (km)",
-          "value": "420"
+          "label": "Nhiên liệu",
+          "value": "Điện"
         },
         {
           "label": "Loại pin",
           "value": "BYD Blade Battery"
         },
         {
-          "label": "Cần số điện tử",
-          "value": "Có"
-        },
-        {
           "label": "Dung lượng pin",
           "value": "55,4 kWh"
         },
         {
-          "label": "Thời gian sạc",
-          "value": "7,9"
+          "label": "Quãng đường/lần sạc (NEDC)",
+          "value": "420 km"
         },
         {
-          "label": "Công suất",
-          "value": "161 mã lực"
+          "label": "Công suất sạc",
+          "value": "DC 89 kW · AC 7 kW"
         },
         {
           "label": "Số chỗ ngồi",
           "value": "7"
+        },
+        {
+          "label": "Kích thước (D×R×C)",
+          "value": "4.710 × 1.810 × 1.690 mm"
+        },
+        {
+          "label": "Trục cơ sở",
+          "value": "2.800 mm"
+        },
+        {
+          "label": "Chiều rộng cơ sở (trước/sau)",
+          "value": "1.540 / 1.530 mm"
+        },
+        {
+          "label": "Khoảng sáng gầm",
+          "value": "170 mm (không tải)"
+        },
+        {
+          "label": "Dung tích cốp sau",
+          "value": "180 lít (tối đa: 950 lít)"
+        },
+        {
+          "label": "Trọng lượng (bản thân)",
+          "value": "1.800 kg"
+        },
+        {
+          "label": "Khối lượng toàn tải",
+          "value": "2.374 kg"
+        },
+        {
+          "label": "Cỡ lốp",
+          "value": "225/55 R17"
+        },
+        {
+          "label": "La-zăng",
+          "value": "Hợp kim"
+        },
+        {
+          "label": "Tốc độ tối đa",
+          "value": "180 km/h"
+        },
+        {
+          "label": "Tăng tốc 0-100 km/h",
+          "value": "10,1 giây"
+        },
+        {
+          "label": "Hệ thống treo trước",
+          "value": "MacPherson"
+        },
+        {
+          "label": "Hệ thống treo sau",
+          "value": "Đa liên kết"
+        },
+        {
+          "label": "Phanh trước",
+          "value": "Đĩa thông gió"
+        },
+        {
+          "label": "Phanh sau",
+          "value": "Đĩa"
         }
       ],
-      "updated_at": "2026-08-22T11:23:05+00:00",
-      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+      "updated_at": "2026-08-22T14:03:27+00:00",
+      "source_note": "Thông số theo CATALOGUE chính hãng BYD M6; giá theo kho (VnExpress). MPV EV 7 chỗ, pin 55,4kWh, tầm 420km.",
+      "locked": true
     },
     {
       "slug": "byd-m9",

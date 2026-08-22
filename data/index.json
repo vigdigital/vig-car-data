@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-22T14:01:43+00:00",
+    "updated_at": "2026-08-22T14:03:27+00:00",
     "brands": [
         {
             "brand": "byd",
@@ -40,7 +40,7 @@
                     "name": "BYD M6",
                     "price": 756000000,
                     "status": "on_sale",
-                    "rev": "20084999e13d"
+                    "rev": "bfac590c10b9"
                 },
                 {
                     "slug": "byd-m9",
