@@ -14,14 +14,39 @@
         "type": "object",
         "required": ["slug", "name", "source_url", "price", "versions", "specs"],
         "properties": {
-          "slug":       { "type": "string" },
-          "name":       { "type": "string" },
-          "year":       { "type": ["integer", "null"] },
-          "source":     { "type": "string", "description": "id nguồn: honda | vnexpress | ..." },
-          "source_url": { "type": "string", "format": "uri" },
-          "price":      { "type": "integer", "description": "giá thấp nhất (đồng)" },
-          "versions":   { "type": "array", "items": { "type": "object", "required": ["name","price"], "properties": { "name": {"type":"string"}, "price": {"type":"integer"} } } },
-          "specs":      { "type": "array", "items": { "type": "object", "required": ["label","value"], "properties": { "label": {"type":"string"}, "value": {"type":"string"} } } },
+          "slug":        { "type": "string" },
+          "name":        { "type": "string" },
+          "year":        { "type": ["integer", "null"] },
+          "source":      { "type": "string", "description": "id nguồn: honda | vnexpress | ..." },
+          "source_url":  { "type": "string", "format": "uri" },
+          "source_note": { "type": "string", "description": "ghi chú nguồn/độ tin cậy (tuỳ chọn)" },
+          "price":       { "type": "integer", "description": "giá thấp nhất trong các bản ĐANG BÁN (đồng)" },
+          "versions": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["name", "price"],
+              "properties": {
+                "name":   { "type": "string", "description": "nhãn rút gọn: G, L, e:HEV RS…" },
+                "price":  { "type": "integer" },
+                "status": { "type": "string", "enum": ["on_sale", "discontinued"], "default": "on_sale",
+                            "description": "on_sale = đang bán; discontinued = ngừng bán (giữ làm lịch sử, ẩn mặc định)" },
+                "status_note": { "type": "string" },
+                "specs": {
+                  "type": "array",
+                  "description": "thông số RIÊNG của phiên bản (khác giữa các bản: động cơ, hộp số, dẫn động, số chỗ, tiêu thụ, trọng lượng…). Phần chung để ở model.specs.",
+                  "items": { "type": "object", "required": ["label", "value"],
+                             "properties": { "label": {"type":"string"}, "value": {"type":"string"} } }
+                }
+              }
+            }
+          },
+          "specs": {
+            "type": "array",
+            "description": "thông số CHUNG cho mọi phiên bản của dòng (kích thước, gầm, lốp, treo, phanh…).",
+            "items": { "type": "object", "required": ["label", "value"],
+                       "properties": { "label": {"type":"string"}, "value": {"type":"string"} } }
+          },
           "updated_at": { "type": "string", "format": "date-time" }
         }
       }

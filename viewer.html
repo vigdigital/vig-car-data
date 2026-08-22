@@ -46,6 +46,9 @@
   .tab:hover{background:#eef2f7}
   .tab.active{background:var(--card);color:var(--brand);border-color:var(--line);border-bottom:2px solid var(--card)}
   .tab small{display:block;font-weight:400;font-size:11px;color:var(--accent);margin-top:1px}
+  .tab.disc{opacity:.55}
+  .tab.disc .badge{display:inline-block;font-size:9px;font-weight:700;color:#b32d2e;background:#fbeaea;border-radius:3px;padding:0 4px;margin-left:5px;vertical-align:middle}
+  .discbar{background:#fbeaea;color:#8a2424;border:1px solid #f0c9c9;border-radius:8px;padding:8px 12px;font-size:13px;margin-bottom:14px}
   .panel{padding:22px 2px 2px}
   .price{font-size:30px;font-weight:800;color:var(--accent);margin:0 0 4px}
   .panel .vlabel{color:var(--muted);font-size:13px;margin-bottom:20px}
@@ -118,24 +121,32 @@ async function openModel(meta){
   if(!model){ box.innerHTML='<div class="empty">Không thấy dữ liệu.</div>'; return; }
   const ln=line(meta);
   const versions=model.versions||[];
-  const specs=model.specs||[];
-  const specTable=`<h3>Thông số kỹ thuật (${specs.length})</h3><table class="specs"><tbody>${
-    specs.map(s=>`<tr><td>${esc(s.label)}</td><td>${esc(s.value)}</td></tr>`).join('')||'<tr><td colspan=2 class=empty>—</td></tr>'
-  }</tbody></table>`;
+  const common=model.specs||[];
+  const specTbl=(rows,title)=>rows.length?`<h3>${title} (${rows.length})</h3><table class="specs"><tbody>${
+    rows.map(s=>`<tr><td>${esc(s.label)}</td><td>${esc(s.value)}</td></tr>`).join('')}</tbody></table>`:'';
+  const onSale=versions.filter(v=>v.status!=='discontinued').length;
 
-  // Tabs = phiên bản. Nội dung tab = giá bản đó + thông số (chung cho dòng).
-  const tabs=versions.map((v,i)=>`<div class="tab${i===0?' active':''}" data-i="${i}">${esc(ln+' '+(v.name||''))}<small>${money(v.price)}</small></div>`).join('');
+  // Tabs = phiên bản. Bản đang bán trước; bản ngừng bán làm mờ + nhãn.
+  const tabs=versions.map((v,i)=>{
+    const disc=v.status==='discontinued';
+    return `<div class="tab${i===0?' active':''}${disc?' disc':''}" data-i="${i}">${esc(ln+' '+(v.name||''))}${disc?'<span class="badge">NGỪNG BÁN</span>':''}<small>${money(v.price)}</small></div>`;
+  }).join('');
   box.innerHTML=`
     <div class="crumb">${esc(meta.brand_name)} <span>›</span> ${esc(ln)}</div>
     <h2>${esc(model.name)} ${model.year?`<span class="chip">${esc(model.year)}</span>`:''}</h2>
-    <div class="sub">${versions.length} phiên bản · nguồn ${esc(model.source||'?')} · <a href="${esc(model.source_url||'#')}" target="_blank" rel="noopener">link nguồn</a> · cập nhật ${(model.updated_at||'').slice(0,10)}</div>
+    <div class="sub">${onSale} phiên bản đang bán${versions.length>onSale?` · ${versions.length-onSale} ngừng bán`:''} · nguồn ${esc(model.source||'?')} · <a href="${esc(model.source_url||'#')}" target="_blank" rel="noopener">link nguồn</a></div>
     ${versions.length?`<div class="tabs">${tabs}</div>`:''}
     <div class="panel" id="panel"></div>`;
 
   const panel=box.querySelector('#panel');
   function showTab(i){
-    const v=versions[i]||{name:'',price:model.price};
-    panel.innerHTML=`<div class="price">${money(v.price)}</div><div class="vlabel">Phiên bản <strong>${esc(ln+' '+(v.name||''))}</strong> · thông số chung của dòng ${esc(ln)}</div>${specTable}`;
+    const v=versions[i]||{name:'',price:model.price,specs:[]};
+    const disc=v.status==='discontinued';
+    panel.innerHTML=`<div class="price">${money(v.price)}</div>`
+      + `<div class="vlabel">Phiên bản <strong>${esc(ln+' '+(v.name||''))}</strong></div>`
+      + (disc?`<div class="discbar">⚠️ Bản này <strong>đã ngừng bán</strong>. ${esc(v.status_note||'')}</div>`:'')
+      + specTbl(v.specs||[], 'Thông số phiên bản')
+      + specTbl(common, 'Thông số chung của dòng '+ln);
   }
   box.querySelectorAll('.tab').forEach(t=>t.onclick=()=>{
     box.querySelectorAll('.tab').forEach(x=>x.classList.remove('active'));
