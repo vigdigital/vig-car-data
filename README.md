@@ -17,6 +17,16 @@ schema.json           # JSON Schema của 1 file brand
    → scrape qua đúng Source (Honda/VnExpress) của plugin → ghi `data/<brand>.json`.
 3. Kiểm tra diff (git) → commit. Lịch sử git = provenance.
 
+## Thêm hãng mới (vd BYD)
+Kho **đa hãng** sẵn: mỗi hãng 1 file `data/<hãng>.json`, `index.json` liệt kê tất cả.
+1. Tạo `data/byd.json` theo **schema.json** — bắt buộc `brand:"byd"`, `brand_name:"BYD"`, `models[]`
+   (mỗi model: `slug, name, price, versions[{name,price,status,specs[{label,value}]}], specs[{label,value}]`).
+   Dùng bộ nhãn chuẩn (Động cơ, Công suất, Số chỗ ngồi…); xe điện thêm nhãn mới (Dung lượng pin, Tầm hoạt động…) thoải mái — plugin generic, không đổi theme.
+2. Regenerate `index.json` (sinh `rev`+`status`): chạy `wp vig-car build …`, hoặc script gen-index khi curate tay.
+3. Commit + push → site BYD pull về.
+
+> Site BYD: cài plugin → **Xe → Cài đặt đồng bộ** → tick **BYD** → thêm xe chọn nguồn từ dropdown (chỉ hiện BYD) → **Đồng bộ**. Mỗi site chỉ thấy/sync hãng mình chọn (option `vcs_brands`).
+
 ## Website dealer tiêu thụ thế nào
 Plugin thêm 1 Source = "VIG Car Hub" đọc `data/<brand>.json` (qua URL raw) →
 tìm model → đưa vào luồng diff/duyệt/ghi Carbon Fields như cũ. Không scrape ở site.
