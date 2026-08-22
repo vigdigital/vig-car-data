@@ -304,63 +304,186 @@
       "slug": "byd-m9",
       "name": "BYD M9",
       "year": null,
-      "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-m9-315",
+      "source": "catalogue",
+      "source_url": "https://bydgoevbinhthuan.vn/cars/byd-m9/",
       "price": 1999000000,
       "versions": [
         {
           "name": "Advanced",
           "price": 1999000000,
           "status": "on_sale",
-          "specs": []
+          "specs": [
+            {
+              "label": "Trọng lượng (bản thân)",
+              "value": "2.440 kg"
+            },
+            {
+              "label": "Khối lượng toàn tải",
+              "value": "3.064 kg"
+            },
+            {
+              "label": "Quãng đường thuần điện (NEDC)",
+              "value": "95 km"
+            },
+            {
+              "label": "Dung lượng pin",
+              "value": "20,4 kWh"
+            },
+            {
+              "label": "Mức tiêu thụ (hỗn hợp)",
+              "value": "5,6 lít/100km"
+            },
+            {
+              "label": "Mức tiêu thụ (khi đầy pin)",
+              "value": "1,7 lít/100km"
+            },
+            {
+              "label": "Tăng tốc 0-100 km/h",
+              "value": "8,4 giây"
+            },
+            {
+              "label": "Công suất sạc DC",
+              "value": "41 kW"
+            },
+            {
+              "label": "Hệ thống treo nâng cao",
+              "value": "Giảm chấn biến thiên"
+            }
+          ]
         },
         {
           "name": "Premium",
           "price": 2388000000,
           "status": "on_sale",
-          "specs": []
+          "specs": [
+            {
+              "label": "Trọng lượng (bản thân)",
+              "value": "2.610 kg"
+            },
+            {
+              "label": "Khối lượng toàn tải",
+              "value": "3.234 kg"
+            },
+            {
+              "label": "Quãng đường thuần điện (NEDC)",
+              "value": "170 km"
+            },
+            {
+              "label": "Dung lượng pin",
+              "value": "36,6 kWh"
+            },
+            {
+              "label": "Mức tiêu thụ (hỗn hợp)",
+              "value": "5,7 lít/100km"
+            },
+            {
+              "label": "Mức tiêu thụ (khi đầy pin)",
+              "value": "1,1 lít/100km"
+            },
+            {
+              "label": "Tăng tốc 0-100 km/h",
+              "value": "8,5 giây"
+            },
+            {
+              "label": "Công suất sạc DC",
+              "value": "73 kW"
+            },
+            {
+              "label": "Hệ thống treo nâng cao",
+              "value": "DiSus-C (khung gầm điều khiển điện tử)"
+            }
+          ]
         }
       ],
       "specs": [
         {
           "label": "Động cơ",
-          "value": "Turbo Hybrid"
-        },
-        {
-          "label": "Dung tích (cc)",
-          "value": "1498"
+          "value": "Plug-in Hybrid DM — máy xăng 1.5L Turbo (147 HP/110 kW) + motor điện (268 HP/200 kW)"
         },
         {
           "label": "Công suất",
-          "value": "147 mã lực"
+          "value": "Máy xăng 147 HP (110 kW) + Motor điện 268 HP (200 kW)"
         },
         {
           "label": "Mô-men xoắn",
-          "value": "220 Nm"
-        },
-        {
-          "label": "Hộp số",
-          "value": "E-CVT"
-        },
-        {
-          "label": "Dẫn động",
-          "value": "FWD"
+          "value": "Máy xăng 220 Nm + Motor điện 315 Nm"
         },
         {
           "label": "Nhiên liệu",
-          "value": "Xăng"
+          "value": "Hybrid (Xăng & Điện)"
         },
         {
-          "label": "Mức tiêu thụ (hỗn hợp)",
-          "value": "5,6"
+          "label": "Dung tích bình xăng",
+          "value": "50 lít"
+        },
+        {
+          "label": "Loại pin",
+          "value": "BYD Blade Battery"
         },
         {
           "label": "Số chỗ ngồi",
           "value": "7"
+        },
+        {
+          "label": "Kích thước (D×R×C)",
+          "value": "5.145 × 1.970 × 1.805 mm"
+        },
+        {
+          "label": "Trục cơ sở",
+          "value": "3.045 mm"
+        },
+        {
+          "label": "Chiều rộng cơ sở (trước/sau)",
+          "value": "1.676 / 1.683 mm"
+        },
+        {
+          "label": "Bán kính quay vòng tối thiểu",
+          "value": "5,7 m"
+        },
+        {
+          "label": "Khoảng sáng gầm",
+          "value": "157 mm (không tải) / 140 mm (đầy tải)"
+        },
+        {
+          "label": "Dung tích cốp sau",
+          "value": "470 lít (gập hàng ghế 3: 2.036 lít)"
+        },
+        {
+          "label": "Công suất sạc AC",
+          "value": "7 kW"
+        },
+        {
+          "label": "Cỡ lốp",
+          "value": "235/60 R18"
+        },
+        {
+          "label": "Hệ thống treo trước",
+          "value": "MacPherson"
+        },
+        {
+          "label": "Hệ thống treo sau",
+          "value": "Độc lập đa liên kết tay đòn kép"
+        },
+        {
+          "label": "Phanh trước",
+          "value": "Đĩa thông gió"
+        },
+        {
+          "label": "Phanh sau",
+          "value": "Đĩa thông gió"
+        },
+        {
+          "label": "Chế độ lái",
+          "value": "Sport / Standard / Economy / Snow"
+        },
+        {
+          "label": "Trợ lực lái",
+          "value": "R-EPS cao cấp"
         }
       ],
-      "updated_at": "2026-08-22T11:23:05+00:00",
-      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+      "updated_at": "2026-08-22T13:58:57+00:00",
+      "source_note": "Thông số theo CATALOGUE chính hãng BYD M9; giá theo kho (VnExpress). PHEV 1.5T + motor 268HP, 7 chỗ.",
+      "locked": true
     },
     {
       "slug": "byd-seal",

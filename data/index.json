@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-22T13:50:04+00:00",
+    "updated_at": "2026-08-22T13:58:57+00:00",
     "brands": [
         {
             "brand": "byd",
@@ -47,7 +47,7 @@
                     "name": "BYD M9",
                     "price": 1999000000,
                     "status": "on_sale",
-                    "rev": "608d45fb2504"
+                    "rev": "44e092b235e0"
                 },
                 {
                     "slug": "byd-seal",
