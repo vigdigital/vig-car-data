@@ -1,0 +1,170 @@
+{
+    "brand": "honda",
+    "brand_name": "Honda",
+    "updated_at": "2026-08-22T03:16:50+00:00",
+    "count": 2,
+    "models": [
+        {
+            "slug": "honda-city",
+            "name": "Honda City",
+            "year": null,
+            "source": "honda",
+            "source_url": "https://www.honda.com.vn/o-to/chi-tiet/2",
+            "price": 499000000,
+            "versions": [
+                {
+                    "name": "RS",
+                    "price": 569000000
+                },
+                {
+                    "name": "L",
+                    "price": 539000000
+                },
+                {
+                    "name": "G",
+                    "price": 499000000
+                }
+            ],
+            "specs": [
+                {
+                    "label": "Động cơ",
+                    "value": "1.5L DOHC i-VTEC 4 xi lanh thẳng hàng, 16 van (1.498cc)"
+                },
+                {
+                    "label": "Hộp số",
+                    "value": "Vô cấp CVT"
+                },
+                {
+                    "label": "Công suất",
+                    "value": "119 mã lực @ 6.600 v/p"
+                },
+                {
+                    "label": "Mô-men xoắn",
+                    "value": "145 Nm @ 4.300 v/p"
+                },
+                {
+                    "label": "Dung tích bình xăng",
+                    "value": "40 lít"
+                },
+                {
+                    "label": "Mức tiêu thụ (hỗn hợp)",
+                    "value": "5,6 lít/100km"
+                },
+                {
+                    "label": "Số chỗ ngồi",
+                    "value": "5"
+                },
+                {
+                    "label": "Kích thước (D×R×C)",
+                    "value": "4.589 × 1.748 × 1.467 mm"
+                },
+                {
+                    "label": "Trục cơ sở",
+                    "value": "2.600 mm"
+                },
+                {
+                    "label": "Cỡ lốp",
+                    "value": "185/55R16"
+                },
+                {
+                    "label": "Khoảng sáng gầm",
+                    "value": "134 mm"
+                },
+                {
+                    "label": "Trọng lượng (bản thân)",
+                    "value": "1.140 kg"
+                },
+                {
+                    "label": "Nhiên liệu",
+                    "value": "Xăng"
+                }
+            ],
+            "updated_at": "2026-08-22T03:16:48+00:00"
+        },
+        {
+            "slug": "honda-cr-v",
+            "name": "Honda CR-V",
+            "year": null,
+            "source": "honda",
+            "source_url": "https://www.honda.com.vn/o-to/chi-tiet/17",
+            "price": 1039000000,
+            "versions": [
+                {
+                    "name": "e:HEV RS",
+                    "price": 1250000000
+                },
+                {
+                    "name": "e:HEV L",
+                    "price": 1170000000
+                },
+                {
+                    "name": "L AWD",
+                    "price": 1250000000
+                },
+                {
+                    "name": "L",
+                    "price": 1099000000
+                },
+                {
+                    "name": "G",
+                    "price": 1039000000
+                }
+            ],
+            "specs": [
+                {
+                    "label": "Động cơ",
+                    "value": "2.0L DOHC 4 xi lanh thẳng hàng (1.993cc)"
+                },
+                {
+                    "label": "Hộp số",
+                    "value": "E-CVT"
+                },
+                {
+                    "label": "Công suất",
+                    "value": "204 mã lực (tổng hệ hybrid)"
+                },
+                {
+                    "label": "Mô-men xoắn",
+                    "value": "335 Nm (mô-tơ điện)"
+                },
+                {
+                    "label": "Dung tích bình xăng",
+                    "value": "57 lít"
+                },
+                {
+                    "label": "Mức tiêu thụ (hỗn hợp)",
+                    "value": "5,20 lít/100km"
+                },
+                {
+                    "label": "Số chỗ ngồi",
+                    "value": "5"
+                },
+                {
+                    "label": "Kích thước (D×R×C)",
+                    "value": "4.691 × 1.866 × 1.681 mm"
+                },
+                {
+                    "label": "Trục cơ sở",
+                    "value": "2.701 mm"
+                },
+                {
+                    "label": "Cỡ lốp",
+                    "value": "235/60R18"
+                },
+                {
+                    "label": "Khoảng sáng gầm",
+                    "value": "198 mm"
+                },
+                {
+                    "label": "Trọng lượng (bản thân)",
+                    "value": "1.759 kg"
+                },
+                {
+                    "label": "Nhiên liệu",
+                    "value": "Xăng"
+                }
+            ],
+            "updated_at": "2026-08-22T03:16:49+00:00"
+        }
+    ]
+}
