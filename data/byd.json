@@ -1,0 +1,612 @@
+{
+  "brand": "byd",
+  "brand_name": "BYD",
+  "updated_at": "2026-08-22T11:23:05+00:00",
+  "count": 10,
+  "models": [
+    {
+      "slug": "byd-atto-2",
+      "name": "BYD Atto 2",
+      "year": null,
+      "source": "vnexpress",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-atto-2-297",
+      "price": 669000000,
+      "versions": [
+        {
+          "name": "Atto 2",
+          "price": 669000000,
+          "status": "on_sale",
+          "specs": []
+        }
+      ],
+      "specs": [
+        {
+          "label": "Hộp số",
+          "value": "1 cấp"
+        },
+        {
+          "label": "Dẫn động",
+          "value": "Cầu trước (FWD)"
+        },
+        {
+          "label": "Tầm hoạt động (km)",
+          "value": "380"
+        },
+        {
+          "label": "Loại pin",
+          "value": "Blade battery"
+        },
+        {
+          "label": "Cần số điện tử",
+          "value": "Không"
+        },
+        {
+          "label": "Dung lượng pin",
+          "value": "45,12 kWh"
+        },
+        {
+          "label": "Công suất",
+          "value": "174 mã lực"
+        },
+        {
+          "label": "Mô-men xoắn",
+          "value": "290 Nm"
+        },
+        {
+          "label": "Số chỗ ngồi",
+          "value": "5"
+        }
+      ],
+      "updated_at": "2026-08-22T11:23:05+00:00",
+      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+    },
+    {
+      "slug": "byd-atto-3",
+      "name": "BYD Atto 3",
+      "year": null,
+      "source": "vnexpress",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-atto-3-266",
+      "price": 766000000,
+      "versions": [
+        {
+          "name": "Dynamic",
+          "price": 766000000,
+          "status": "on_sale",
+          "specs": [
+            {
+              "label": "Tầm hoạt động (km)",
+              "value": "410"
+            },
+            {
+              "label": "Dung lượng pin",
+              "value": "49,92 kWh"
+            }
+          ]
+        },
+        {
+          "name": "Premium",
+          "price": 886000000,
+          "status": "on_sale",
+          "specs": [
+            {
+              "label": "Tầm hoạt động (km)",
+              "value": "480"
+            },
+            {
+              "label": "Dung lượng pin",
+              "value": "60,48 kWh"
+            }
+          ]
+        }
+      ],
+      "specs": [
+        {
+          "label": "Hộp số",
+          "value": "1 cấp"
+        },
+        {
+          "label": "Dẫn động",
+          "value": "Cầu sau (RWD)"
+        },
+        {
+          "label": "Loại pin",
+          "value": "Blade battery"
+        },
+        {
+          "label": "Cần số điện tử",
+          "value": "Có"
+        },
+        {
+          "label": "Công suất",
+          "value": "201 mã lực"
+        },
+        {
+          "label": "Mô-men xoắn",
+          "value": "310 Nm"
+        },
+        {
+          "label": "Số chỗ ngồi",
+          "value": "5"
+        }
+      ],
+      "updated_at": "2026-08-22T11:23:05+00:00",
+      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+    },
+    {
+      "slug": "byd-dolphin",
+      "name": "BYD Dolphin",
+      "year": null,
+      "source": "vnexpress",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-dolphin-269",
+      "price": 569000000,
+      "versions": [
+        {
+          "name": "GLX",
+          "price": 569000000,
+          "status": "on_sale",
+          "specs": []
+        }
+      ],
+      "specs": [
+        {
+          "label": "Hộp số",
+          "value": "1 cấp"
+        },
+        {
+          "label": "Dẫn động",
+          "value": "FWD"
+        },
+        {
+          "label": "Tầm hoạt động (km)",
+          "value": "435"
+        },
+        {
+          "label": "Loại pin",
+          "value": "BYD Blade"
+        },
+        {
+          "label": "Cần số điện tử",
+          "value": "Có"
+        },
+        {
+          "label": "Dung lượng pin",
+          "value": "50,29 kWh"
+        },
+        {
+          "label": "Thời gian sạc",
+          "value": "6,5"
+        },
+        {
+          "label": "Công suất",
+          "value": "94 mã lực"
+        },
+        {
+          "label": "Số chỗ ngồi",
+          "value": "5"
+        }
+      ],
+      "updated_at": "2026-08-22T11:23:05+00:00",
+      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+    },
+    {
+      "slug": "byd-han",
+      "name": "BYD Han",
+      "year": null,
+      "source": "vnexpress",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-han-283",
+      "price": 1489000000,
+      "versions": [
+        {
+          "name": "Performance",
+          "price": 1489000000,
+          "status": "on_sale",
+          "specs": []
+        }
+      ],
+      "specs": [
+        {
+          "label": "Động cơ",
+          "value": "Hai môtơ điện"
+        },
+        {
+          "label": "Dẫn động",
+          "value": "AWD"
+        },
+        {
+          "label": "Tầm hoạt động (km)",
+          "value": "521"
+        },
+        {
+          "label": "Loại pin",
+          "value": "BYD Blade"
+        },
+        {
+          "label": "Dung lượng pin",
+          "value": "85,44 kWh"
+        },
+        {
+          "label": "Công suất",
+          "value": "509 mã lực"
+        },
+        {
+          "label": "Mô-men xoắn",
+          "value": "700 Nm"
+        },
+        {
+          "label": "Thời gian tăng tốc từ 0-100 km/h (giây)",
+          "value": "3,9"
+        },
+        {
+          "label": "Số chỗ ngồi",
+          "value": "5"
+        }
+      ],
+      "updated_at": "2026-08-22T11:23:05+00:00",
+      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+    },
+    {
+      "slug": "byd-m6",
+      "name": "BYD M6",
+      "year": null,
+      "source": "vnexpress",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-m6-280",
+      "price": 756000000,
+      "versions": [
+        {
+          "name": "M6",
+          "price": 756000000,
+          "status": "on_sale",
+          "specs": []
+        }
+      ],
+      "specs": [
+        {
+          "label": "Hộp số",
+          "value": "1 cấp"
+        },
+        {
+          "label": "Dẫn động",
+          "value": "FWD"
+        },
+        {
+          "label": "Tầm hoạt động (km)",
+          "value": "420"
+        },
+        {
+          "label": "Loại pin",
+          "value": "BYD Blade Battery"
+        },
+        {
+          "label": "Cần số điện tử",
+          "value": "Có"
+        },
+        {
+          "label": "Dung lượng pin",
+          "value": "55,4 kWh"
+        },
+        {
+          "label": "Thời gian sạc",
+          "value": "7,9"
+        },
+        {
+          "label": "Công suất",
+          "value": "161 mã lực"
+        },
+        {
+          "label": "Số chỗ ngồi",
+          "value": "7"
+        }
+      ],
+      "updated_at": "2026-08-22T11:23:05+00:00",
+      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+    },
+    {
+      "slug": "byd-m9",
+      "name": "BYD M9",
+      "year": null,
+      "source": "vnexpress",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-m9-315",
+      "price": 1999000000,
+      "versions": [
+        {
+          "name": "Advanced",
+          "price": 1999000000,
+          "status": "on_sale",
+          "specs": []
+        },
+        {
+          "name": "Premium",
+          "price": 2388000000,
+          "status": "on_sale",
+          "specs": []
+        }
+      ],
+      "specs": [
+        {
+          "label": "Động cơ",
+          "value": "Turbo Hybrid"
+        },
+        {
+          "label": "Dung tích (cc)",
+          "value": "1498"
+        },
+        {
+          "label": "Công suất",
+          "value": "147 mã lực"
+        },
+        {
+          "label": "Mô-men xoắn",
+          "value": "220 Nm"
+        },
+        {
+          "label": "Hộp số",
+          "value": "E-CVT"
+        },
+        {
+          "label": "Dẫn động",
+          "value": "FWD"
+        },
+        {
+          "label": "Nhiên liệu",
+          "value": "Xăng"
+        },
+        {
+          "label": "Mức tiêu thụ (hỗn hợp)",
+          "value": "5,6"
+        },
+        {
+          "label": "Số chỗ ngồi",
+          "value": "7"
+        }
+      ],
+      "updated_at": "2026-08-22T11:23:05+00:00",
+      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+    },
+    {
+      "slug": "byd-seal",
+      "name": "BYD Seal",
+      "year": null,
+      "source": "vnexpress",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-seal-267",
+      "price": 1119000000,
+      "versions": [
+        {
+          "name": "Advanced",
+          "price": 1119000000,
+          "status": "on_sale",
+          "specs": [
+            {
+              "label": "Dẫn động",
+              "value": "Cầu sau (RWD)"
+            },
+            {
+              "label": "Tầm hoạt động (km)",
+              "value": "460"
+            },
+            {
+              "label": "Dung lượng pin",
+              "value": "61,44 kWh"
+            },
+            {
+              "label": "Công suất",
+              "value": "201 mã lực"
+            },
+            {
+              "label": "Mô-men xoắn",
+              "value": "310 Nm"
+            }
+          ]
+        },
+        {
+          "name": "Performance",
+          "price": 1359000000,
+          "status": "on_sale",
+          "specs": [
+            {
+              "label": "Dẫn động",
+              "value": "AWD"
+            },
+            {
+              "label": "Tầm hoạt động (km)",
+              "value": "520"
+            },
+            {
+              "label": "Dung lượng pin",
+              "value": "82,56 kWh"
+            },
+            {
+              "label": "Công suất",
+              "value": "522 mã lực"
+            },
+            {
+              "label": "Mô-men xoắn",
+              "value": "670 Nm"
+            }
+          ]
+        }
+      ],
+      "specs": [
+        {
+          "label": "Hộp số",
+          "value": "1 cấp"
+        },
+        {
+          "label": "Loại pin",
+          "value": "Blade battery"
+        },
+        {
+          "label": "Cần số điện tử",
+          "value": "Có"
+        },
+        {
+          "label": "Số chỗ ngồi",
+          "value": "5"
+        }
+      ],
+      "updated_at": "2026-08-22T11:23:05+00:00",
+      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+    },
+    {
+      "slug": "byd-seal-5",
+      "name": "BYD Seal 5",
+      "year": null,
+      "source": "vnexpress",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-seal-5-309",
+      "price": 696000000,
+      "versions": [
+        {
+          "name": "MD-i",
+          "price": 696000000,
+          "status": "on_sale",
+          "specs": []
+        }
+      ],
+      "specs": [
+        {
+          "label": "Động cơ",
+          "value": "PHEV"
+        },
+        {
+          "label": "Dung tích (cc)",
+          "value": "1500"
+        },
+        {
+          "label": "Công suất",
+          "value": "209 mã lực"
+        },
+        {
+          "label": "Mô-men xoắn",
+          "value": "300 Nm"
+        },
+        {
+          "label": "Dẫn động",
+          "value": "FWD"
+        },
+        {
+          "label": "Nhiên liệu",
+          "value": "Xăng-Điện-Sạc"
+        },
+        {
+          "label": "Mức tiêu thụ (hỗn hợp)",
+          "value": "3,8"
+        },
+        {
+          "label": "Số chỗ ngồi",
+          "value": "5"
+        }
+      ],
+      "updated_at": "2026-08-22T11:23:05+00:00",
+      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+    },
+    {
+      "slug": "byd-sealion-6",
+      "name": "BYD Sealion 6",
+      "year": null,
+      "source": "vnexpress",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-sealion-6-295",
+      "price": 799000000,
+      "versions": [
+        {
+          "name": "Dynamic",
+          "price": 799000000,
+          "status": "on_sale",
+          "specs": []
+        },
+        {
+          "name": "Premium",
+          "price": 899000000,
+          "status": "on_sale",
+          "specs": []
+        }
+      ],
+      "specs": [
+        {
+          "label": "Động cơ",
+          "value": "Plug-in hybrid 1.5"
+        },
+        {
+          "label": "Dung tích (cc)",
+          "value": "1500"
+        },
+        {
+          "label": "Công suất",
+          "value": "96 mã lực"
+        },
+        {
+          "label": "Mô-men xoắn",
+          "value": "122 Nm"
+        },
+        {
+          "label": "Loại pin",
+          "value": "BYD Blade"
+        },
+        {
+          "label": "Dung lượng pin",
+          "value": "18,3 kWh"
+        },
+        {
+          "label": "Số chỗ ngồi",
+          "value": "5"
+        }
+      ],
+      "updated_at": "2026-08-22T11:23:05+00:00",
+      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+    },
+    {
+      "slug": "byd-sealion-8",
+      "name": "BYD Sealion 8",
+      "year": null,
+      "source": "vnexpress",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-sealion-8-296",
+      "price": 1569000000,
+      "versions": [
+        {
+          "name": "Performance",
+          "price": 1569000000,
+          "status": "on_sale",
+          "specs": []
+        }
+      ],
+      "specs": [
+        {
+          "label": "Động cơ",
+          "value": "Hai môtơ điện"
+        },
+        {
+          "label": "Công suất",
+          "value": "509 mã lực"
+        },
+        {
+          "label": "Mô-men xoắn",
+          "value": "700 Nm"
+        },
+        {
+          "label": "Dẫn động",
+          "value": "AWD"
+        },
+        {
+          "label": "Thời gian tăng tốc từ 0-100 km/h (giây)",
+          "value": "4,9"
+        },
+        {
+          "label": "Loại pin",
+          "value": "Blade Battery"
+        },
+        {
+          "label": "Dung lượng pin",
+          "value": "108,8 kWh"
+        },
+        {
+          "label": "Tầm hoạt động (km)",
+          "value": "530"
+        },
+        {
+          "label": "Số chỗ ngồi",
+          "value": "7"
+        }
+      ],
+      "updated_at": "2026-08-22T11:23:05+00:00",
+      "source_note": "Dữ liệu từ VnExpress V-Car (tạm — chưa có catalogue hãng). Thông số EV giữ theo VnExpress."
+    }
+  ]
+}

@@ -2,12 +2,85 @@
   "honda": {
     "brand_name": "Honda",
     "urls": [
-      { "url": "https://www.honda.com.vn/o-to/chi-tiet/2",  "name": "Honda City" },
-      { "url": "https://www.honda.com.vn/o-to/chi-tiet/19", "name": "Honda Civic" },
-      { "url": "https://www.honda.com.vn/o-to/chi-tiet/20", "name": "Honda Civic Type R" },
-      { "url": "https://www.honda.com.vn/o-to/chi-tiet/17", "name": "Honda CR-V" },
-      { "url": "https://www.honda.com.vn/o-to/chi-tiet/21", "name": "Honda HR-V" },
-      { "url": "https://www.honda.com.vn/o-to/chi-tiet/18", "name": "Honda BR-V" }
+      {
+        "url": "https://www.honda.com.vn/o-to/chi-tiet/2",
+        "name": "Honda City"
+      },
+      {
+        "url": "https://www.honda.com.vn/o-to/chi-tiet/19",
+        "name": "Honda Civic"
+      },
+      {
+        "url": "https://www.honda.com.vn/o-to/chi-tiet/20",
+        "name": "Honda Civic Type R"
+      },
+      {
+        "url": "https://www.honda.com.vn/o-to/chi-tiet/17",
+        "name": "Honda CR-V"
+      },
+      {
+        "url": "https://www.honda.com.vn/o-to/chi-tiet/21",
+        "name": "Honda HR-V"
+      },
+      {
+        "url": "https://www.honda.com.vn/o-to/chi-tiet/18",
+        "name": "Honda BR-V"
+      }
+    ]
+  },
+  "byd": {
+    "brand_name": "BYD",
+    "urls": [
+      {
+        "url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-atto-2-297",
+        "name": "BYD Atto 2",
+        "slug": "byd-atto-2"
+      },
+      {
+        "url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-atto-3-266",
+        "name": "BYD Atto 3",
+        "slug": "byd-atto-3"
+      },
+      {
+        "url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-dolphin-269",
+        "name": "BYD Dolphin",
+        "slug": "byd-dolphin"
+      },
+      {
+        "url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-han-283",
+        "name": "BYD Han",
+        "slug": "byd-han"
+      },
+      {
+        "url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-m6-280",
+        "name": "BYD M6",
+        "slug": "byd-m6"
+      },
+      {
+        "url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-m9-315",
+        "name": "BYD M9",
+        "slug": "byd-m9"
+      },
+      {
+        "url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-seal-267",
+        "name": "BYD Seal",
+        "slug": "byd-seal"
+      },
+      {
+        "url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-seal-5-309",
+        "name": "BYD Seal 5",
+        "slug": "byd-seal-5"
+      },
+      {
+        "url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-sealion-6-295",
+        "name": "BYD Sealion 6",
+        "slug": "byd-sealion-6"
+      },
+      {
+        "url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-sealion-8-296",
+        "name": "BYD Sealion 8",
+        "slug": "byd-sealion-8"
+      }
     ]
   }
 }

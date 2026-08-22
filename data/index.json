@@ -1,6 +1,84 @@
 {
-    "updated_at": "2026-08-22T10:42:41+00:00",
+    "updated_at": "2026-08-22T11:23:48+00:00",
     "brands": [
+        {
+            "brand": "byd",
+            "brand_name": "BYD",
+            "file": "byd.json",
+            "count": 10,
+            "models": [
+                {
+                    "slug": "byd-atto-2",
+                    "name": "BYD Atto 2",
+                    "price": 669000000,
+                    "status": "on_sale",
+                    "rev": "7c04ee75db80"
+                },
+                {
+                    "slug": "byd-atto-3",
+                    "name": "BYD Atto 3",
+                    "price": 766000000,
+                    "status": "on_sale",
+                    "rev": "f10a12bae46d"
+                },
+                {
+                    "slug": "byd-dolphin",
+                    "name": "BYD Dolphin",
+                    "price": 569000000,
+                    "status": "on_sale",
+                    "rev": "aa9e379cf33b"
+                },
+                {
+                    "slug": "byd-han",
+                    "name": "BYD Han",
+                    "price": 1489000000,
+                    "status": "on_sale",
+                    "rev": "556384871604"
+                },
+                {
+                    "slug": "byd-m6",
+                    "name": "BYD M6",
+                    "price": 756000000,
+                    "status": "on_sale",
+                    "rev": "20084999e13d"
+                },
+                {
+                    "slug": "byd-m9",
+                    "name": "BYD M9",
+                    "price": 1999000000,
+                    "status": "on_sale",
+                    "rev": "608d45fb2504"
+                },
+                {
+                    "slug": "byd-seal",
+                    "name": "BYD Seal",
+                    "price": 1119000000,
+                    "status": "on_sale",
+                    "rev": "dd7a76d7ddb8"
+                },
+                {
+                    "slug": "byd-seal-5",
+                    "name": "BYD Seal 5",
+                    "price": 696000000,
+                    "status": "on_sale",
+                    "rev": "e5fb68333c5d"
+                },
+                {
+                    "slug": "byd-sealion-6",
+                    "name": "BYD Sealion 6",
+                    "price": 799000000,
+                    "status": "on_sale",
+                    "rev": "76355377e668"
+                },
+                {
+                    "slug": "byd-sealion-8",
+                    "name": "BYD Sealion 8",
+                    "price": 1569000000,
+                    "status": "on_sale",
+                    "rev": "fcf146ed061d"
+                }
+            ]
+        },
         {
             "brand": "honda",
             "brand_name": "Honda",
