@@ -1,0 +1,23 @@
+{
+    "updated_at": "2026-08-22T03:24:23+00:00",
+    "brands": [
+        {
+            "brand": "honda",
+            "brand_name": "Honda",
+            "file": "honda.json",
+            "count": 2,
+            "models": [
+                {
+                    "slug": "honda-city",
+                    "name": "Honda City",
+                    "price": 499000000
+                },
+                {
+                    "slug": "honda-cr-v",
+                    "name": "Honda CR-V",
+                    "price": 1039000000
+                }
+            ]
+        }
+    ]
+}
