@@ -169,8 +169,8 @@
           "value": "6"
         }
       ],
-      "updated_at": "2026-08-22T14:15:22+00:00",
-      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết); giá theo kho."
+      "updated_at": "2026-08-23T00:58:50+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version tự động); giá theo kho."
     },
     {
       "slug": "byd-atto-3",
@@ -1448,7 +1448,7 @@
       "name": "BYD Sealion 8",
       "year": null,
       "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-sealion-8-2026-performance-1049",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-sealion-8-2025-performance-1049",
       "price": 1569000000,
       "versions": [
         {
@@ -1604,8 +1604,8 @@
           "value": "Trước/Sau"
         }
       ],
-      "updated_at": "2026-08-22T14:17:05+00:00",
-      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết); giá theo kho."
+      "updated_at": "2026-08-23T00:58:50+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version tự động); giá theo kho."
     }
   ]
 }
