@@ -177,7 +177,7 @@
       "name": "BYD Atto 3",
       "year": null,
       "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-atto-3-2026-dynamic-889",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-atto-3-2024-dynamic-889",
       "price": 766000000,
       "versions": [
         {
@@ -186,12 +186,28 @@
           "status": "on_sale",
           "specs": [
             {
+              "label": "Quãng đường/lần sạc (NEDC)",
+              "value": "410 km"
+            },
+            {
               "label": "Dung lượng pin",
               "value": "49,92 kWh"
             },
             {
-              "label": "Quãng đường/lần sạc (NEDC)",
-              "value": "410 km"
+              "label": "Trọng lượng (bản thân)",
+              "value": "2.090"
+            },
+            {
+              "label": "Cỡ lốp",
+              "value": "215/60 R17"
+            },
+            {
+              "label": "Hệ thống loa",
+              "value": "6"
+            },
+            {
+              "label": "Số túi khí",
+              "value": "4"
             }
           ]
         },
@@ -201,12 +217,28 @@
           "status": "on_sale",
           "specs": [
             {
+              "label": "Quãng đường/lần sạc (NEDC)",
+              "value": "480 km"
+            },
+            {
               "label": "Dung lượng pin",
               "value": "60,48 kWh"
             },
             {
-              "label": "Quãng đường/lần sạc (NEDC)",
-              "value": "480 km"
+              "label": "Trọng lượng (bản thân)",
+              "value": "2.160"
+            },
+            {
+              "label": "Cỡ lốp",
+              "value": "235/50 R18"
+            },
+            {
+              "label": "Hệ thống loa",
+              "value": "8"
+            },
+            {
+              "label": "Số túi khí",
+              "value": "6"
             }
           ]
         }
@@ -263,14 +295,6 @@
         {
           "label": "Dung tích cốp sau",
           "value": "440 lít"
-        },
-        {
-          "label": "Trọng lượng (bản thân)",
-          "value": "2.090"
-        },
-        {
-          "label": "Cỡ lốp",
-          "value": "215/60 R17"
         },
         {
           "label": "Hệ thống treo trước",
@@ -345,24 +369,16 @@
           "value": "12,8 inch"
         },
         {
-          "label": "Hệ thống loa",
-          "value": "6"
-        },
-        {
           "label": "Điều chỉnh vô-lăng",
           "value": "Cơ"
         },
         {
           "label": "Trợ lực vô-lăng",
           "value": "Điện"
-        },
-        {
-          "label": "Số túi khí",
-          "value": "4"
         }
       ],
-      "updated_at": "2026-08-22T14:19:07+00:00",
-      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version); giá theo kho."
+      "updated_at": "2026-08-23T00:56:39+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version tự động); giá theo kho."
     },
     {
       "slug": "byd-dolphin",
@@ -964,7 +980,7 @@
       "name": "BYD Seal",
       "year": null,
       "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-seal-2026-advanced-891",
+      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-seal-2024-advanced-891",
       "price": 1119000000,
       "versions": [
         {
@@ -972,6 +988,18 @@
           "price": 1119000000,
           "status": "on_sale",
           "specs": [
+            {
+              "label": "Dẫn động",
+              "value": "Cầu sau (RWD)"
+            },
+            {
+              "label": "Quãng đường/lần sạc (NEDC)",
+              "value": "460 km"
+            },
+            {
+              "label": "Dung lượng pin",
+              "value": "61,44 kWh"
+            },
             {
               "label": "Công suất",
               "value": "201 mã lực"
@@ -981,16 +1009,24 @@
               "value": "310 Nm"
             },
             {
-              "label": "Dung lượng pin",
-              "value": "61,44 kWh"
+              "label": "Tăng tốc 0-100 km/h",
+              "value": "7,5 giây"
             },
             {
-              "label": "Quãng đường/lần sạc (NEDC)",
-              "value": "460 km"
+              "label": "Trọng lượng (bản thân)",
+              "value": "1.992"
             },
             {
-              "label": "Dẫn động",
-              "value": "Cầu sau (RWD)"
+              "label": "Cỡ lốp",
+              "value": "225/50 R18"
+            },
+            {
+              "label": "Chất liệu bọc vô-lăng",
+              "value": "Da PU"
+            },
+            {
+              "label": "Hệ thống loa",
+              "value": "10"
             }
           ]
         },
@@ -1000,6 +1036,18 @@
           "status": "on_sale",
           "specs": [
             {
+              "label": "Dẫn động",
+              "value": "AWD"
+            },
+            {
+              "label": "Quãng đường/lần sạc (NEDC)",
+              "value": "520 km"
+            },
+            {
+              "label": "Dung lượng pin",
+              "value": "82,56 kWh"
+            },
+            {
               "label": "Công suất",
               "value": "522 mã lực"
             },
@@ -1008,16 +1056,24 @@
               "value": "670 Nm"
             },
             {
-              "label": "Dung lượng pin",
-              "value": "82,56 kWh"
+              "label": "Tăng tốc 0-100 km/h",
+              "value": "3,8 giây"
             },
             {
-              "label": "Quãng đường/lần sạc (NEDC)",
-              "value": "520 km"
+              "label": "Trọng lượng (bản thân)",
+              "value": "2.185"
             },
             {
-              "label": "Dẫn động",
-              "value": "2 motor điện (AWD)"
+              "label": "Cỡ lốp",
+              "value": "235/45 R19"
+            },
+            {
+              "label": "Chất liệu bọc vô-lăng",
+              "value": "Da"
+            },
+            {
+              "label": "Hệ thống loa",
+              "value": "12"
             }
           ]
         }
@@ -1034,10 +1090,6 @@
         {
           "label": "Loại pin",
           "value": "Blade battery"
-        },
-        {
-          "label": "Tăng tốc 0-100 km/h",
-          "value": "7,5 giây"
         },
         {
           "label": "Công suất sạc AC",
@@ -1062,14 +1114,6 @@
         {
           "label": "Dung tích cốp sau",
           "value": "400+50 lít"
-        },
-        {
-          "label": "Trọng lượng (bản thân)",
-          "value": "1.992"
-        },
-        {
-          "label": "Cỡ lốp",
-          "value": "225/50 R18"
         },
         {
           "label": "Hệ thống treo trước",
@@ -1124,10 +1168,6 @@
           "value": "10,25 inch"
         },
         {
-          "label": "Chất liệu bọc vô-lăng",
-          "value": "Da PU"
-        },
-        {
           "label": "Hàng ghế thứ hai",
           "value": "Gập 60:40"
         },
@@ -1138,10 +1178,6 @@
         {
           "label": "Màn hình giải trí",
           "value": "15,6 inch"
-        },
-        {
-          "label": "Hệ thống loa",
-          "value": "10"
         },
         {
           "label": "Điều chỉnh vô-lăng",
@@ -1156,8 +1192,8 @@
           "value": "9"
         }
       ],
-      "updated_at": "2026-08-22T14:19:07+00:00",
-      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version); giá theo kho."
+      "updated_at": "2026-08-23T00:56:39+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version tự động); giá theo kho."
     },
     {
       "slug": "byd-seal-5",
