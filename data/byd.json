@@ -13,7 +13,7 @@
       "price": 669000000,
       "versions": [
         {
-          "name": "Atto 2",
+          "name": "Premium",
           "price": 669000000,
           "status": "on_sale",
           "specs": []
@@ -169,8 +169,8 @@
           "value": "6"
         }
       ],
-      "updated_at": "2026-08-23T00:58:50+00:00",
-      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version tự động); giá theo kho."
+      "updated_at": "2026-08-24T04:35:14+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version tự động); giá theo kho. | Giá: bảng giá chính hãng BYD GOEV (2026-08)."
     },
     {
       "slug": "byd-atto-3",
@@ -389,7 +389,7 @@
       "price": 569000000,
       "versions": [
         {
-          "name": "GLX",
+          "name": "Thailand",
           "price": 569000000,
           "status": "on_sale",
           "specs": []
@@ -505,8 +505,8 @@
           "value": "Đĩa"
         }
       ],
-      "updated_at": "2026-08-22T14:01:43+00:00",
-      "source_note": "Thông số theo CATALOGUE chính hãng BYD Dolphin; giá theo kho (VnExpress). EV thuần điện, pin 44,9kWh, tầm 405km.",
+      "updated_at": "2026-08-24T04:35:14+00:00",
+      "source_note": "Thông số theo CATALOGUE chính hãng BYD Dolphin; giá theo kho (VnExpress). EV thuần điện, pin 44,9kWh, tầm 405km. | Giá: bảng giá chính hãng BYD GOEV (2026-08).",
       "locked": true
     },
     {
@@ -666,8 +666,8 @@
           "value": "6"
         }
       ],
-      "updated_at": "2026-08-22T14:17:04+00:00",
-      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết); giá theo kho."
+      "updated_at": "2026-08-24T04:35:14+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết); giá theo kho. | Giá: bảng giá chính hãng BYD GOEV (2026-08)."
     },
     {
       "slug": "byd-m6",
@@ -678,7 +678,7 @@
       "price": 756000000,
       "versions": [
         {
-          "name": "M6",
+          "name": "Standard",
           "price": 756000000,
           "status": "on_sale",
           "specs": []
@@ -786,8 +786,8 @@
           "value": "Đĩa"
         }
       ],
-      "updated_at": "2026-08-22T14:03:27+00:00",
-      "source_note": "Thông số theo CATALOGUE chính hãng BYD M6; giá theo kho (VnExpress). MPV EV 7 chỗ, pin 55,4kWh, tầm 420km.",
+      "updated_at": "2026-08-24T04:35:14+00:00",
+      "source_note": "Thông số theo CATALOGUE chính hãng BYD M6; giá theo kho (VnExpress). MPV EV 7 chỗ, pin 55,4kWh, tầm 420km. | Giá: bảng giá chính hãng BYD GOEV (2026-08).",
       "locked": true
     },
     {
@@ -971,8 +971,8 @@
           "value": "R-EPS cao cấp"
         }
       ],
-      "updated_at": "2026-08-22T13:58:57+00:00",
-      "source_note": "Thông số theo CATALOGUE chính hãng BYD M9; giá theo kho (VnExpress). PHEV 1.5T + motor 268HP, 7 chỗ.",
+      "updated_at": "2026-08-24T04:35:14+00:00",
+      "source_note": "Thông số theo CATALOGUE chính hãng BYD M9; giá theo kho (VnExpress). PHEV 1.5T + motor 268HP, 7 chỗ. | Giá: bảng giá chính hãng BYD GOEV (2026-08).",
       "locked": true
     },
     {
@@ -1192,8 +1192,8 @@
           "value": "9"
         }
       ],
-      "updated_at": "2026-08-23T00:56:39+00:00",
-      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version tự động); giá theo kho."
+      "updated_at": "2026-08-24T04:35:14+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version tự động); giá theo kho. | Giá: bảng giá chính hãng BYD GOEV (2026-08)."
     },
     {
       "slug": "byd-seal-5",
@@ -1308,8 +1308,8 @@
           "value": "2,2 kW"
         }
       ],
-      "updated_at": "2026-08-22T14:07:18+00:00",
-      "source_note": "Thông số theo CATALOGUE chính hãng BYD Seal 5 Premium (DM-i); giá theo kho (VnExpress). PHEV 209HP tổng hệ.",
+      "updated_at": "2026-08-24T04:35:14+00:00",
+      "source_note": "Thông số theo CATALOGUE chính hãng BYD Seal 5 Premium (DM-i); giá theo kho (VnExpress). PHEV 209HP tổng hệ. | Giá: bảng giá chính hãng BYD GOEV (2026-08).",
       "locked": true
     },
     {
@@ -1328,7 +1328,7 @@
         },
         {
           "name": "Premium",
-          "price": 899000000,
+          "price": 936000000,
           "status": "on_sale",
           "specs": []
         }
@@ -1439,8 +1439,8 @@
           "value": "Hợp kim nhôm"
         }
       ],
-      "updated_at": "2026-08-22T13:50:04+00:00",
-      "source_note": "Thông số theo CATALOGUE chính hãng BYD; GIÁ theo kho (VnExpress). Công suất 214HP (đã sửa: VnExpress ghi sai 96).",
+      "updated_at": "2026-08-24T04:35:14+00:00",
+      "source_note": "Thông số theo CATALOGUE chính hãng BYD; GIÁ theo kho (VnExpress). Công suất 214HP (đã sửa: VnExpress ghi sai 96). | Giá: bảng giá chính hãng BYD GOEV (2026-08).",
       "locked": true
     },
     {
@@ -1604,8 +1604,8 @@
           "value": "Trước/Sau"
         }
       ],
-      "updated_at": "2026-08-23T00:58:50+00:00",
-      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version tự động); giá theo kho."
+      "updated_at": "2026-08-24T04:35:14+00:00",
+      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version tự động); giá theo kho. | Giá: bảng giá chính hãng BYD GOEV (2026-08)."
     }
   ]
 }
