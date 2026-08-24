@@ -1,5 +1,5 @@
 {
-    "updated_at": "2026-08-24T04:40:55+00:00",
+    "updated_at": "2026-08-24T05:00:46+00:00",
     "brands": [
         {
             "brand": "byd",
@@ -54,7 +54,7 @@
                     "name": "BYD Seal",
                     "price": 1119000000,
                     "status": "on_sale",
-                    "rev": "c551f1e4ceee"
+                    "rev": "1a5aa3015897"
                 },
                 {
                     "slug": "byd-seal-5",

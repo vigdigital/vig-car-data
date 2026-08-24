@@ -979,8 +979,8 @@
       "slug": "byd-seal",
       "name": "BYD Seal",
       "year": null,
-      "source": "vnexpress",
-      "source_url": "https://vnexpress.net/oto-xe-may/v-car/phien-ban-xe/byd-seal-2024-advanced-891",
+      "source": "catalogue",
+      "source_url": "https://byd.com/vn",
       "price": 1119000000,
       "versions": [
         {
@@ -993,20 +993,20 @@
               "value": "Cầu sau (RWD)"
             },
             {
-              "label": "Quãng đường/lần sạc (NEDC)",
-              "value": "460 km"
+              "label": "Công suất",
+              "value": "201 mã lực (150 kW)"
+            },
+            {
+              "label": "Mô-men xoắn",
+              "value": "310 Nm"
             },
             {
               "label": "Dung lượng pin",
               "value": "61,44 kWh"
             },
             {
-              "label": "Công suất",
-              "value": "201 mã lực"
-            },
-            {
-              "label": "Mô-men xoắn",
-              "value": "310 Nm"
+              "label": "Quãng đường/lần sạc (WLTC)",
+              "value": "460 km"
             },
             {
               "label": "Tăng tốc 0-100 km/h",
@@ -1014,19 +1014,23 @@
             },
             {
               "label": "Trọng lượng (bản thân)",
-              "value": "1.992"
+              "value": "1.922 kg"
             },
             {
               "label": "Cỡ lốp",
               "value": "225/50 R18"
             },
             {
-              "label": "Chất liệu bọc vô-lăng",
-              "value": "Da PU"
+              "label": "Phanh trước",
+              "value": "Đĩa thông gió"
             },
             {
-              "label": "Hệ thống loa",
-              "value": "10"
+              "label": "Sạc nhanh DC",
+              "value": "CCS2 110 kW"
+            },
+            {
+              "label": "Giảm xóc thông minh (FSD)",
+              "value": "Không"
             }
           ]
         },
@@ -1037,23 +1041,23 @@
           "specs": [
             {
               "label": "Dẫn động",
-              "value": "AWD"
+              "value": "2 motor điện (AWD)"
             },
             {
-              "label": "Quãng đường/lần sạc (NEDC)",
-              "value": "520 km"
+              "label": "Công suất",
+              "value": "522 mã lực (390 kW) — tổng hệ"
+            },
+            {
+              "label": "Mô-men xoắn",
+              "value": "670 Nm — tổng hệ"
             },
             {
               "label": "Dung lượng pin",
               "value": "82,56 kWh"
             },
             {
-              "label": "Công suất",
-              "value": "522 mã lực"
-            },
-            {
-              "label": "Mô-men xoắn",
-              "value": "670 Nm"
+              "label": "Quãng đường/lần sạc (WLTC)",
+              "value": "520 km"
             },
             {
               "label": "Tăng tốc 0-100 km/h",
@@ -1061,19 +1065,23 @@
             },
             {
               "label": "Trọng lượng (bản thân)",
-              "value": "2.185"
+              "value": "2.185 kg"
             },
             {
               "label": "Cỡ lốp",
               "value": "235/45 R19"
             },
             {
-              "label": "Chất liệu bọc vô-lăng",
-              "value": "Da"
+              "label": "Phanh trước",
+              "value": "Đĩa thông gió + đục lỗ"
             },
             {
-              "label": "Hệ thống loa",
-              "value": "12"
+              "label": "Sạc nhanh DC",
+              "value": "CCS2 150 kW"
+            },
+            {
+              "label": "Giảm xóc thông minh (FSD)",
+              "value": "Trước + sau"
             }
           ]
         }
@@ -1084,28 +1092,32 @@
           "value": "Điện"
         },
         {
-          "label": "Hộp số",
-          "value": "1 cấp"
-        },
-        {
-          "label": "Loại pin",
-          "value": "Blade battery"
-        },
-        {
-          "label": "Công suất sạc AC",
-          "value": "7 kW"
+          "label": "Motor điện trục sau",
+          "value": "Motor đồng bộ nam châm vĩnh cửu"
         },
         {
           "label": "Số chỗ ngồi",
           "value": "5"
         },
         {
+          "label": "Loại pin",
+          "value": "BYD Blade Battery"
+        },
+        {
           "label": "Kích thước (D×R×C)",
-          "value": "4.800 × 1.875 × 1.640 mm"
+          "value": "4.800 × 1.875 × 1.460 mm"
         },
         {
           "label": "Trục cơ sở",
           "value": "2.920 mm"
+        },
+        {
+          "label": "Vệt bánh xe (trước/sau)",
+          "value": "1.620 / 1.625 mm"
+        },
+        {
+          "label": "Bán kính quay vòng tối thiểu",
+          "value": "5,7 m"
         },
         {
           "label": "Khoảng sáng gầm",
@@ -1113,7 +1125,11 @@
         },
         {
           "label": "Dung tích cốp sau",
-          "value": "400+50 lít"
+          "value": "400 lít"
+        },
+        {
+          "label": "Dung tích cốp trước (frunk)",
+          "value": "50 lít"
         },
         {
           "label": "Hệ thống treo trước",
@@ -1121,79 +1137,24 @@
         },
         {
           "label": "Hệ thống treo sau",
-          "value": "Đa liên kết 5 điểm"
-        },
-        {
-          "label": "Phanh trước",
-          "value": "Đĩa"
+          "value": "Thanh đa liên kết"
         },
         {
           "label": "Phanh sau",
-          "value": "Đĩa"
+          "value": "Đĩa thông gió"
         },
         {
-          "label": "Đèn chiếu xa",
-          "value": "LED"
+          "label": "La-zăng",
+          "value": "Hợp kim nhôm"
         },
         {
-          "label": "Đèn chiếu gần",
-          "value": "LED"
-        },
-        {
-          "label": "Đèn ban ngày",
-          "value": "LED"
-        },
-        {
-          "label": "Đèn hậu",
-          "value": "LED"
-        },
-        {
-          "label": "Gương chiếu hậu",
-          "value": "Chỉnh điện"
-        },
-        {
-          "label": "Chất liệu bọc ghế",
-          "value": "Da"
-        },
-        {
-          "label": "Điều chỉnh ghế lái",
-          "value": "Điện"
-        },
-        {
-          "label": "Điều chỉnh ghế phụ",
-          "value": "Điện"
-        },
-        {
-          "label": "Bảng đồng hồ tài xế",
-          "value": "10,25 inch"
-        },
-        {
-          "label": "Hàng ghế thứ hai",
-          "value": "Gập 60:40"
-        },
-        {
-          "label": "Điều hoà",
-          "value": "Tự động"
-        },
-        {
-          "label": "Màn hình giải trí",
-          "value": "15,6 inch"
-        },
-        {
-          "label": "Điều chỉnh vô-lăng",
-          "value": "Cơ"
-        },
-        {
-          "label": "Trợ lực vô-lăng",
-          "value": "Điện"
-        },
-        {
-          "label": "Số túi khí",
-          "value": "9"
+          "label": "Sạc AC",
+          "value": "Loại 2 (7 kW)"
         }
       ],
-      "updated_at": "2026-08-24T04:35:14+00:00",
-      "source_note": "Thông số theo VnExpress V-Car (bản chi tiết, per-version tự động); giá theo kho. | Giá: bảng giá chính hãng BYD GOEV (2026-08)."
+      "updated_at": "2026-08-24T05:00:46+00:00",
+      "source_note": "Thông số theo CATALOGUE chính hãng BYD Seal (BYD VN); giá theo bảng giá chính hãng. Sửa: chiều cao 1.460 (VnExpress sai 1.640).",
+      "locked": true
     },
     {
       "slug": "byd-seal-5",
