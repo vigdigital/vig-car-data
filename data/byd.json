@@ -1318,11 +1318,11 @@
       "year": null,
       "source": "catalogue",
       "source_url": "https://vnexpress.net/oto-xe-may/v-car/dong-xe/byd-sealion-6-295",
-      "price": 799000000,
+      "price": 839000000,
       "versions": [
         {
           "name": "Dynamic",
-          "price": 799000000,
+          "price": 839000000,
           "status": "on_sale",
           "specs": []
         },
@@ -1439,7 +1439,7 @@
           "value": "Hợp kim nhôm"
         }
       ],
-      "updated_at": "2026-08-24T04:35:14+00:00",
+      "updated_at": "2026-08-24T04:40:55+00:00",
       "source_note": "Thông số theo CATALOGUE chính hãng BYD; GIÁ theo kho (VnExpress). Công suất 214HP (đã sửa: VnExpress ghi sai 96). | Giá: bảng giá chính hãng BYD GOEV (2026-08).",
       "locked": true
     },
